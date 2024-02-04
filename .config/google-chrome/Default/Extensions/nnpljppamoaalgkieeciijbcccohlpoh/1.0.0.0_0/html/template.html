@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/popup2.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="container pos-rel">
+      <a id="main-logo" href="#"></a>
+      <a id="lrt-logo" href="#"></a>
+      <a id="btn-options" href="options.html"></a>
+    </div>
+  </div>
+
+  <div class="body">
+    <div id="result">
+      <div class="hop-container hop-expanded">
+        <div class="hop-header impct-green">
+          <div class="container">
+            <div class="hop-url"><a href="{{url}}" target="_blank">http://apache.zalesom.info/redirect/redirect.php?meta=true&timeout=2&url=final.htmlredirect/redirect.php?meta=true&timeout=2&url=final.htmlhttp://apache.zalesom.info/redirect/redirect.php?meta=true&timeout=2&url=final.htmlredirect/redirect.php?meta=true&timeout=2&url=final.html</a>
+            </div>
+            <div class="hop-expand-icon"></div>
+          </div>
+        </div>
+        <div class="hop-body">
+          <div class="hop-body-container">
+            <table class="hop-main-table">
+              <tr>
+                <td class="hop-col-img">
+                  <div class="hop-img">
+                    <div class="round impct-green">
+                      <span class="status-code">
+                        {{#redirectType}}
+                        {{redirectType}}
+                        {{/redirectType}}
+                        {{^redirectType}}
+                        {{statusCode}}
+                        {{/redirectType}}
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td class="hop-col-descr">
+                  <div>200 then after 2s META redirect to:</div>
+                  <div>
+                    <a href="#">http://apache.zalesom.info/redirect/final.html</a>
+                  </div>
+                  <div class="hop-icons">
+                    <span class="hop-icon icon-cookie"></span>
+                    <span class="hop-icon icon-index"></span>
+                    <span class="hop-icon icon-noindex"></span>
+                    <span class="hop-icon icon-follow"></span>
+                    <span class="hop-icon icon-broken"></span>
+                  </div>
+                </td>
+                <td class="hop-col-dtox"></td>
+                <td class="hop-col-lrt">
+                  <div class="hop-lrt-container">
+                    <div class="lrt-power">LRT Power (<span class="lrt-value">6</span>)</div>
+                    <div class="lrt-trust">LRT Trust (<span class="lrt-value">8</span>)</div>
+                    <div class="lrt-icon"></div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div class="hop-ext-view">
+
+              <div class="hop-ext-header">robots.txt</div>
+              <table>
+                <tr>
+                  <td class="hop-ext-col-icons">
+                    <span class="hop-icon icon-warning"></span>
+                  </td>
+                  <td class="hop-ext-col-key">
+                    <span class="text-warning">BUT</span>
+                    <span class="">robots.txt blocks ...robots.txt blocks ...robots.txt blocks ...robots.txt blocks ...robots.txt blocks ...robots.txt blocks ...</span>
+                  </td>
+                </tr>
+              </table>
+
+              <div class="hop-ext-header">HTML</div>
+              <table>
+                <tr>
+                  <td class="hop-ext-col-icons">
+                    <span class="hop-icon icon-canonical"></span>
+                  </td>
+                  <td class="hop-ext-col-key">
+                    <span class="">HTML Rel Canonical</span>
+                  </td>
+                  <td class="hop-ext-col-broken">
+                    <span class="hop-icon icon-broken"></span>
+                  </td>
+                  <td class="hop-ext-col-value">
+                    <span class="text-warning">BLOCKED</span>
+                    http://apache.zalesom.info
+                  </td>
+                </tr>
+                <tr>
+                  <td class="hop-ext-col-icons">
+                    <span class="hop-icon icon-canonical"></span>
+                  </td>
+                  <td class="hop-ext-col-key">
+                    <span class="">HTML Rel Canonical</span>
+                  </td>
+                  <td class="hop-ext-col-broken">
+                    <span class="hop-icon icon-broken"></span>
+                  </td>
+                  <td class="hop-ext-col-value">
+                    http://apache.zalesom.info/redirect/redirect.php?http=true&code=500&url=final.html
+                  </td>
+                </tr>
+                <tr>
+                  <td class="hop-ext-col-icons">
+                    <span class="hop-icon icon-index"></span>
+                    <span class="hop-icon icon-nofollow"></span>
+                  </td>
+                  <td class="hop-ext-col-key">
+                    <span class="">Meta Robots tag</span>
+                  </td>
+                  <td class="hop-ext-col-broken">
+                  </td>
+                  <td class="hop-ext-col-value">
+                    index,nofollow,noarchive
+                  </td>
+                </tr>
+              </table>
+
+              <div class="hop-ext-header">HEADERS</div>
+              <table>
+                <tr>
+                  <td class="hop-ext-col-icons">
+                    <span class="hop-icon icon-canonical"></span>
+                  </td>
+                  <td class="hop-ext-col-key">
+                    <span class="">HTML Rel Canonical</span>
+                  </td>
+                  <td class="hop-ext-col-broken">
+                    <span class="hop-icon icon-broken"></span>
+                  </td>
+                  <td class="hop-ext-col-value">
+                    http://apache.zalesom.info/redirect/redirect.php?http=true&code=500&url=final.html
+                  </td>
+                </tr>
+                <tr>
+                  <td class="hop-ext-col-icons">
+                    <span class="hop-icon icon-cookie"></span>
+                  </td>
+                  <td class="hop-ext-col-key">
+                    <span class="">Set-cookie</span>
+                  </td>
+                  <td class="hop-ext-col-broken">
+                  </td>
+                  <td class="hop-ext-col-value">
+                    fdfd
+                  </td>
+                </tr>
+              </table>
+
+            </div>
+          </div>
+        </div>
+        <div class="hop-footer"></div>
+        <div class="hop-backlayer impct-green"></div>
+      </div>
+      <div class="hop-container last-hop">
+      <div class="hop-header impct-green">
+        <div class="container">
+          <div class="hop-url"><a href="{{url}}" target="_blank">http://apache.zalesom.info/redirect/redirect.php?meta=true&timeout=2&url=final.htmlredirect/redirect.php?meta=true&timeout=2&url=final.htmlhttp://apache.zalesom.info/redirect/redirect.php?meta=true&timeout=2&url=final.htmlredirect/redirect.php?meta=true&timeout=2&url=final.html</a>
+          </div>
+          <div class="hop-expand-icon"></div>
+        </div>
+      </div>
+      <div class="hop-body">
+        <div class="hop-body-container">
+          <table class="hop-main-table">
+            <tr>
+              <td class="hop-col-img">
+                <div class="hop-img">
+                  <div class="round impct-green">
+                    <span class="status-code">
+                      META
+                    </span>
+                  </div>
+                </div>
+              </td>
+              <td class="hop-col-descr">
+                <div>200 then after 2s META redirect to:</div>
+                <div>
+                  <a href="#">http://apache.zalesom.info/redirect/final.html</a>
+                </div>
+                <div class="hop-icons">
+                  <span class="hop-icon icon-cookie"></span>
+                  <span class="hop-icon icon-index"></span>
+                  <span class="hop-icon icon-noindex"></span>
+                  <span class="hop-icon icon-follow"></span>
+                  <span class="hop-icon icon-broken"></span>
+                </div>
+              </td>
+              <td class="hop-col-dtox"></td>
+              <td class="hop-col-lrt">
+                <div class="hop-lrt-container">
+                  <div class="lrt-power">LRT Power (6)</div>
+                  <div class="lrt-trust">LRT Trust (8)</div>
+                  <div class="lrt-icon"></div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="hop-footer"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container footer-btns">
+      <a class="btn btn-copy">Copy to Clipboard</a>
+      <a class="btn btn-export">Export</a>
+    </div>
+  </div>
+
+  <div class="banner">
+    <div class="ad"></div>
+  </div>
+
+
+
+  <script type="text/javascript" src="/lib/jquery-2.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/mustache-2.2.1.min.js"></script>
+  <script type="text/javascript" src="/js/lrt/LRTIcon.js"></script>
+  <script type="text/javascript" src="/js/Warning.js"></script>
+  <!-- <script type="text/javascript" src="/js/popup.js"></script> -->
+</body>
+</html>

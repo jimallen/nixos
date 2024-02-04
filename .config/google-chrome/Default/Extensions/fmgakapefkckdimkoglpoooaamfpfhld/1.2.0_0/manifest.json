@@ -1,0 +1,24 @@
+{
+   "browser_action": {
+      "default_icon": "icons/hammerhead-icon-16.png",
+      "default_popup": "popup/route-grab.html",
+      "default_title": "Click to send this route to your Karoo Dashboard"
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/rwgps-ambassador-routes.js" ],
+      "matches": [ "https://ridewithgps.com/ambassador_routes/*" ]
+   } ],
+   "description": "Karoo Route Grab - send routes to your Hammerhead Karoo from Strava, Ride with GPS, Komoot, etc",
+   "icons": {
+      "128": "icons/hammerhead-icon-128.png",
+      "16": "icons/hammerhead-icon-16.png",
+      "48": "icons/hammerhead-icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmQj3+STaAOHSPWTryhBEbaK3viRuA5XO2Vj3v0mqqg1jcCXb7dAL216/VM77+JBvYk92/H66mKfHN6lkVCwVK7OPj2hCNyPTG9fKvcST8c+zT9luJNNSg+d6h2Xh7bKH11Nr5doxJXQmq6+6gGdClCT31+xA+viv10nHWPGIK/aQlMscnIrFZh73VsoTo4EInODRLav7+UGTBsEcMdzJWg5qxHURIZyQIdnqwj7vi5q+RlTsUzE9R9CfcA9o7QIYWdhLpU5EJd2Eii7pZmGWnc39e6d1r867emP3QEaLTW8Pfa3CWcvjIdwNlWEuUmqRfdsQMDhUU15SameZ/H/v5QIDAQAB",
+   "manifest_version": 2,
+   "name": "Karoo Route Grab",
+   "permissions": [ "activeTab", "https://*.hammerhead.io/", "https://ridewithgps.com/ambassador_routes/" ],
+   "short_name": "Karoo Route Grab",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.0"
+}

@@ -1,0 +1,1328 @@
+[02/02/24, 20:20:34:615] info: 
+╔═══════════════════════════════════════════════════╗
+║      Slack 4.35.126, linux 6.6.4-lqx1 on x64      ║
+╚═══════════════════════════════════════════════════╝ 
+[02/02/24, 20:20:34:615] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-console",
+  "loggerInstanceCount": 3
+}
+[02/02/24, 20:20:34:616] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "Europe/Berlin",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.35.126",
+  "PACKAGE_MANIFEST.commit": "6fdb3e7",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[02/02/24, 20:20:34:616] info: Starting Sentry (Preload) 
+[02/02/24, 20:20:34:616] info: getSentryDSN: Setting sentry URL to slack.com 
+[02/02/24, 20:20:34:616] info: Creating desktop interface object 
+[02/02/24, 20:20:34:616] info: Exposing context bridge 
+[02/02/24, 20:20:34:617] info: Store: WINDOW_CREATED {
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 472,
+      "y": 245,
+      "width": 800,
+      "height": 600
+    },
+    "hasVibrancy": false
+  }
+} 
+[02/02/24, 20:20:34:617] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 1,
+  "interval": 337
+} 
+[02/02/24, 20:20:34:617] info: Store: UPDATE_SETTINGS {
+  "keyboardLayout": "us"
+} 
+[02/02/24, 20:20:34:617] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "unloaded"
+} 
+[02/02/24, 20:20:34:617] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[02/02/24, 20:20:34:617] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[02/02/24, 20:20:34:617] info: [TRACER] Tracing is not sampled by default for this session. 
+[02/02/24, 20:20:34:617] info: Breadcrumb: navigation: undefined {
+  "from": "/ssb/first?redir=%2Fssb%2Fclient#/",
+  "to": "/ssb/first?redir=%2Fssb%2Fclient#/"
+} 
+[02/02/24, 20:20:34:618] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[02/02/24, 20:20:34:618] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[02/02/24, 20:20:34:618] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 3562
+} 
+[02/02/24, 20:20:34:618] info: Store: MAIN_WINDOW_SHOWN  
+[02/02/24, 20:20:34:618] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 361,
+      "y": 161,
+      "width": 1024,
+      "height": 768
+    }
+  }
+} 
+[02/02/24, 20:20:34:618] info: Store: CLEAR_NOTIFICATIONS  
+[02/02/24, 20:20:34:623] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[02/02/24, 20:20:34:716] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error=",
+  "status_code": 200
+} 
+[02/02/24, 20:20:34:719] info: Network status check {
+  "elapsed_time_ms": 224,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[02/02/24, 20:20:34:722] info: Store: SET_NETWORK_STATUS online 
+[02/02/24, 20:20:35:628] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": true,
+    "bounds": {
+      "width": 1024,
+      "height": 768,
+      "x": 361,
+      "y": 161
+    }
+  }
+} 
+[02/02/24, 20:20:46:288] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": true,
+    "bounds": {
+      "width": 1024,
+      "height": 768,
+      "x": 361,
+      "y": 161
+    }
+  }
+} 
+[02/02/24, 20:20:48:017] info: Breadcrumb: ui.click: a.c-link.c-button.c-button--primary.c-button--large.p-ssb_landing__button.c-button--focus-visible  
+[02/02/24, 20:21:30:768] info: Store: UPDATE_SETTINGS {
+  "lastClogForProxyInfo": 1706901690763
+} 
+[02/02/24, 20:21:59:834] info: Store: HANDLE_DEEP_LINK {
+  "url": "slack://T02LLEZNT/magic-login/6580272720596-cf7ae309c6af4646096cc0361044b28df213147525b5bf89008538e45234279b/T04CVTGJKC2/magic-login/6571181328262-6d5b753040cf76aef8b7fbb1e1d0d5f5dc61380afad8aa5d2365df810c1259eb?id=1"
+} 
+[02/02/24, 20:21:59:837] info: Store: FOCUS_WINDOW  
+[02/02/24, 20:21:59:838] info: Store: MAGIC_LOGIN_IN_PROGRESS true 
+[02/02/24, 20:21:59:839] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "unloaded"
+} 
+[02/02/24, 20:22:00:327] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "history": "[REDACTED]"
+} 
+[02/02/24, 20:22:00:369] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "loaded"
+} 
+[02/02/24, 20:22:00:370] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "type": "auth",
+  "history": "[REDACTED]"
+} 
+[02/02/24, 20:22:00:379] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "page-closed"
+} 
+[02/02/24, 20:22:00:395] info: Store: MAGIC_LOGIN_IN_PROGRESS false 
+[02/02/24, 20:22:00:395] info: Store: REMOVE_WEB_CONTENTS {
+  "id": 2
+} 
+[02/02/24, 20:22:01:141] info: Starting Sentry (Preload) 
+[02/02/24, 20:22:01:142] info: getSentryDSN: Setting sentry URL to slack.com 
+[02/02/24, 20:22:01:155] info: Creating desktop interface object 
+[02/02/24, 20:22:01:158] info: Exposing context bridge 
+[02/02/24, 20:22:01:209] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[02/02/24, 20:22:02:291] info: [METRICS] Starting timers for metrics collection 
+[02/02/24, 20:22:03:569] info: [APP] client-v2 
+[02/02/24, 20:22:03:570] info: [DATE/TIME] 1706901723569 "2024-02-02T19:22:03.569Z" 
+[02/02/24, 20:22:03:570] info: [VERSION] version_hash: 40c9db4648a3952a5775dbb90735692d98f1dee6 
+[02/02/24, 20:22:03:570] info: [VERSION] version_ts: 1706897249 
+[02/02/24, 20:22:03:571] info: [VERSION] min_version_data_ts: 1652142630 
+[02/02/24, 20:22:03:571] info: [URL] https://app.slack.com/client 
+[02/02/24, 20:22:03:572] info: [AUTH] authCookieChanged: started listening to the event 
+[02/02/24, 20:22:03:575] info: [AUTH] Need to re-fetch auth (sc=true, psc=NaN, csc=1706901720, mfc=true, lf=0, mf=1635006011, sae=false) 
+[02/02/24, 20:22:03:576] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1706901723576 
+[02/02/24, 20:22:03:577] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client 
+[02/02/24, 20:22:03:578] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&return_to=%2Fclient&teams= 
+[02/02/24, 20:22:03:584] info: [WD] All assets have reported back; s: 7; f: 0 
+[02/02/24, 20:22:03:589] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error=",
+  "status_code": 200
+} 
+[02/02/24, 20:22:03:596] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[02/02/24, 20:22:03:602] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[02/02/24, 20:22:03:607] info: Network status check {
+  "elapsed_time_ms": 1820,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[02/02/24, 20:22:03:609] info: Store: SET_NETWORK_STATUS online 
+[02/02/24, 20:22:03:765] info: [AUTH] credentials are ready 
+[02/02/24, 20:22:03:769] info: [AUTH] credentials are ready ({"added":["T02LLEZNT","T04CVTGJKC2"],"changed":[],"removed":[],"pending":[],"isNoOp":false,"areChangedTeamsIncompatible":true}) 
+[02/02/24, 20:22:03:772] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 1201 bytes of data 
+[02/02/24, 20:22:03:774] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: (none), teams now: T02LLEZNT:U042AMLBG31,T04CVTGJKC2:U05575ME29H 
+[02/02/24, 20:22:03:778] info: [BOOT] Initial user team ID: T02LLEZNT 
+[02/02/24, 20:22:03:784] info: [BOOT] (T02LLEZNT) Minimum supported data version is 1652142630; currently on undefined 
+[02/02/24, 20:22:03:785] info: [BOOT] (T02LLEZNT) Skipping checking persisted store because if it exists it's out of date 
+[02/02/24, 20:22:03:786] info: [PERSIST] (T02LLEZNT) Purging persisted model... 
+[02/02/24, 20:22:03:790] info: [TRACER] Tracing is not sampled by default for this team. 
+[02/02/24, 20:22:03:886] info: [TRACER] Tracing is not sampled by default for this session. 
+[02/02/24, 20:22:03:897] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901723.891 experiments.getByUser called 
+[02/02/24, 20:22:03:897] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901723.891 experiments.getByUser is ENQUEUED 
+[02/02/24, 20:22:03:901] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901723.900 api.features called 
+[02/02/24, 20:22:03:901] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901723.900 api.features is ENQUEUED 
+[02/02/24, 20:22:03:907] info: [BOOT] Couldn't determine boot channel. Falling back to default channel 
+[02/02/24, 20:22:03:914] info: [OBJECT-STORE] attempting to delete shards [] 
+[02/02/24, 20:22:03:914] info: Store: SELECTION_CHANGED T02LLEZNT 
+[02/02/24, 20:22:03:941] info: [OBJECT-STORE-T02LLEZN] openDB initializing at version 226 
+[02/02/24, 20:22:03:942] info: [OBJECT-STORE-T02LLEZN] openDB adding stores ["sundryStorage"] 
+[02/02/24, 20:22:03:943] info: [OBJECT-STORE-T02LLEZN] openDB removing stores [] 
+[02/02/24, 20:22:03:943] info: [OBJECT-STORE-T02LLEZN] openDB clearing stores [] 
+[02/02/24, 20:22:04:115] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[02/02/24, 20:22:04:358] info: [PERSIST] (T02LLEZNT) Purged model 
+[02/02/24, 20:22:04:361] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901724.359 client.userBoot called with reason: initial-data 
+[02/02/24, 20:22:04:362] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901724.359 client.userBoot is ENQUEUED 
+[02/02/24, 20:22:06:244] info: [BOOT] (T02LLEZNT) Booting with empty store 
+[02/02/24, 20:22:06:250] info: [BOOT] (T02LLEZNT) Configuring redux store 
+[02/02/24, 20:22:06:312] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["theme","notificationPrefs","connectivityPrefs","featureFlags","unreads","locale","version","userId"] 
+[02/02/24, 20:22:06:328] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [theme,notificationPrefs,connectivityPrefs,featureFlags,unreads,locale,version,userId] 
+[02/02/24, 20:22:06:792] info: [WD] All assets have reported back; s: 14; f: 0 
+[02/02/24, 20:22:06:830] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901723.891 experiments.getByUser is ACTIVE 
+[02/02/24, 20:22:06:831] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901723.900 api.features is ACTIVE 
+[02/02/24, 20:22:06:832] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901724.359 client.userBoot is ACTIVE 
+[02/02/24, 20:22:07:139] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901723.900 api.features is RESOLVED 
+[02/02/24, 20:22:07:146] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901723.891 experiments.getByUser is RESOLVED 
+[02/02/24, 20:22:07:178] info: [BOOT] Feature flag config version: 1706901726; Experiments config version: 1706901726 
+[02/02/24, 20:22:07:179] info: [BOOT] Current earliest config version: 1706901726; All config versions: {"T02LLEZNT":1706901726} 
+[02/02/24, 20:22:07:274] info: [BOOT-QUEUE] T02LLEZNT noversion-1706901724.359 client.userBoot is RESOLVED 
+[02/02/24, 20:22:07:295] info: [BOOT] (T02LLEZNT) Dispatching API data 
+[02/02/24, 20:22:07:295] info: [BOOT] (T02LLEZNT) Dispatching boot data 
+[02/02/24, 20:22:07:333] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["featureFlags","userId"] 
+[02/02/24, 20:22:07:363] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["theme","notificationPrefs","unreads"] 
+[02/02/24, 20:22:07:366] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["connectivityPrefs"] 
+[02/02/24, 20:22:07:528] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[02/02/24, 20:22:07:535] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.531 search.autocomplete.topEmojis called with reason: loadEmoji-maybeReloadEmoji-setModelData 
+[02/02/24, 20:22:07:535] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.531 search.autocomplete.topEmojis is ENQUEUED 
+[02/02/24, 20:22:07:537] info: [BOOT] (T02LLEZNT) workspaces changed since last boot -- invalidating cached state 
+[02/02/24, 20:22:07:544] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.543 client.appCommands called with reason: set-model-data 
+[02/02/24, 20:22:07:545] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.543 client.appCommands is ENQUEUED 
+[02/02/24, 20:22:07:548] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.547 files.list called with reason: paperclip-recents 
+[02/02/24, 20:22:07:548] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.547 files.list is ENQUEUED 
+[02/02/24, 20:22:07:550] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.549 links.getDomains called with reason: siws-get-domains 
+[02/02/24, 20:22:07:551] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.549 links.getDomains is ENQUEUED 
+[02/02/24, 20:22:07:557] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.531 search.autocomplete.topEmojis is ACTIVE 
+[02/02/24, 20:22:07:558] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.543 client.appCommands is ACTIVE 
+[02/02/24, 20:22:07:560] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.547 files.list is ACTIVE 
+[02/02/24, 20:22:07:560] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.549 links.getDomains is ACTIVE 
+[02/02/24, 20:22:07:607] info: [BOOT] (T02LLEZNT) processing mutation timestamps for C02LLEZPV 
+[02/02/24, 20:22:07:607] info: [COUNTS] (T02LLEZNT) purging cached history for channel C02LLEZPV since counts history_invalid 1704816287.011700 > cached historyInvalidTs undefined 
+[02/02/24, 20:22:07:622] info: [PLATFORM-CHANNEL-ACTI] (T02LLEZNT) setting count for channel C02LLEZPV to 0, and marking channel as stale. 
+[02/02/24, 20:22:07:629] info: [UNREAD-COUNTS] (T02LLEZNT) Counting unreads in C02LLEZPV because (28) timestamps added 
+[02/02/24, 20:22:07:634] info: [UNREAD-COUNTS] (T02LLEZNT) Checking unreads in C02LLEZPV after a new message 
+[02/02/24, 20:22:07:653] info: [BOOT] (T02LLEZNT) Boot complete 
+[02/02/24, 20:22:07:657] info: [DESKTOP-SIDE-EFFECT] (T02LLEZNT) Reacting to  {"type":"[1147] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[02/02/24, 20:22:07:661] info: [AUTH] Installing incremental auth handler 
+[02/02/24, 20:22:07:663] info: [SOCKET-MANAGER] (T02LLEZNT) Changing from never_connected to prov_connect 
+[02/02/24, 20:22:07:664] info: [SOCKET-MANAGER] (T02LLEZNT) will stay in prov_connect state for up to 10000 ms 
+[02/02/24, 20:22:07:666] info: [SOCKET-MANAGER] (T02LLEZNT) Connecting with token ending: 8718 
+[02/02/24, 20:22:07:666] info: [SOCKET-MANAGER] (T02LLEZNT) Changing from prov_connect to prov_connecting 
+[02/02/24, 20:22:07:667] info: [SOCKET-MANAGER] (T02LLEZNT) will stay in prov_connecting state for up to 35000 ms 
+[02/02/24, 20:22:07:669] info: [ENDPOINT-MANAGER] (T02LLEZNT) No stale versions to clear. 
+[02/02/24, 20:22:07:670] info: [ENDPOINT-MANAGER] (T02LLEZNT) socketUrl - fetching endpoint 
+[02/02/24, 20:22:07:671] info: [SOCKET-MANAGER-MIDDLE] (T02LLEZNT) Initialized Socket Manager instance 
+[02/02/24, 20:22:07:718] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[02/02/24, 20:22:07:730] info: [DESKTOP-SIDE-EFFECT] (T02LLEZNT) Creating desktop delegate 
+[02/02/24, 20:22:07:732] info: Exposing workspace desktop delegate for  {
+  "workspaceId": "T02LLEZNT"
+} 
+[02/02/24, 20:22:07:734] info: Setting global desktop delegate 
+[02/02/24, 20:22:07:743] info: [BOOT] (T02LLEZNT) (T02LLEZNT) Mounting client 
+[02/02/24, 20:22:08:069] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.068 drafts.list called with reason: client-v2-boot-team 
+[02/02/24, 20:22:08:070] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.068 drafts.list is ENQUEUED 
+[02/02/24, 20:22:08:071] info: [DRAFTS] (T02LLEZNT) No local drafts - skipping fetch to purge inactive drafts 
+[02/02/24, 20:22:08:073] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.072 workflows.triggers.listRecentlyRunForUser called with reason: fetch_and_upsert_recently_run_triggers 
+[02/02/24, 20:22:08:073] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.072 workflows.triggers.listRecentlyRunForUser is ENQUEUED 
+[02/02/24, 20:22:08:077] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.075 megaphone.notifications.list called with reason: boot 
+[02/02/24, 20:22:08:077] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.075 megaphone.notifications.list is ENQUEUED 
+[02/02/24, 20:22:08:078] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.077 megaphone.notifications.list called with reason: boot 
+[02/02/24, 20:22:08:078] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.077 megaphone.notifications.list is ENQUEUED 
+[02/02/24, 20:22:08:173] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Starting navigation listeners for triggerType CLIENT_MOUNT 
+[02/02/24, 20:22:08:313] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.312 teams.trials.info called with reason: client-v2-boot-team 
+[02/02/24, 20:22:08:314] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.312 teams.trials.info is ENQUEUED 
+[02/02/24, 20:22:08:315] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.314 users.prefs.get called with reason: fetch-frecency-prefs 
+[02/02/24, 20:22:08:316] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.314 users.prefs.get is ENQUEUED 
+[02/02/24, 20:22:08:318] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.068 drafts.list is ACTIVE 
+[02/02/24, 20:22:08:319] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.072 workflows.triggers.listRecentlyRunForUser is ACTIVE 
+[02/02/24, 20:22:08:320] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.075 megaphone.notifications.list is ACTIVE 
+[02/02/24, 20:22:08:321] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.077 megaphone.notifications.list is ACTIVE 
+[02/02/24, 20:22:08:323] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.312 teams.trials.info is ACTIVE 
+[02/02/24, 20:22:08:324] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.314 users.prefs.get is ACTIVE 
+[02/02/24, 20:22:08:327] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.326 calendar.getInstalledCalendars called with reason: calendar-get-installed-calendars 
+[02/02/24, 20:22:08:328] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.326 calendar.getInstalledCalendars is ENQUEUED 
+[02/02/24, 20:22:08:414] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Starting navigation listeners for triggerType CLIENT_MOUNT 
+[02/02/24, 20:22:08:415] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Navigation listeners complete without errors 
+[02/02/24, 20:22:08:483] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.482 users.prefs.set called with reason: prefs-api/setUserPrefByApi 
+[02/02/24, 20:22:08:484] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.482 users.prefs.set is ENQUEUED 
+[02/02/24, 20:22:08:491] info: [BOOT] Setting reducedSignInWorkflowExperiment object in local storage. teamId: T02LLEZNT, enterpriseId: undefined, isOn: true 
+[02/02/24, 20:22:08:509] info: [BOOT] (T04CVTGJKC2) Minimum supported data version is 1652142630; currently on undefined 
+[02/02/24, 20:22:08:510] info: [BOOT] (T04CVTGJKC2) Skipping checking persisted store because if it exists it's out of date 
+[02/02/24, 20:22:08:511] info: [PERSIST] (T04CVTGJKC2) Purging persisted model... 
+[02/02/24, 20:22:08:511] info: [TRACER] Tracing is not sampled by default for this team. 
+[02/02/24, 20:22:08:517] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901728.515 experiments.getByUser called 
+[02/02/24, 20:22:08:517] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901728.515 experiments.getByUser is ENQUEUED 
+[02/02/24, 20:22:08:517] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901728.516 api.features called 
+[02/02/24, 20:22:08:518] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901728.516 api.features is ENQUEUED 
+[02/02/24, 20:22:08:519] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901728.515 experiments.getByUser is ACTIVE 
+[02/02/24, 20:22:08:520] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901728.516 api.features is ACTIVE 
+[02/02/24, 20:22:08:520] info: [BOOT] Couldn't determine boot channel. Falling back to default channel 
+[02/02/24, 20:22:08:555] info: [CHECK-UNREADS] (T02LLEZNT) Checking unreads after window became focused 
+[02/02/24, 20:22:08:556] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C02LLEZPV because last_read >= latest && channel is read 
+[02/02/24, 20:22:08:561] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [featureFlags,userId] 
+[02/02/24, 20:22:08:563] info: [UFM-MEMBERS] (T02LLEZNT) requesting U03NKTG8UTE,U04KMTG8VL2,U0HKV2NMB,UKAJ75LCE,U050PDM2ET0,U03HN0G6E,ULMKSA7NX,U016N2S6TGR,U05ACNA7QKF,U02LLEZP3,U02LLFCF9,UNV7YJC76,U02K9PPRVFX,U06C4GSMVRA,U015SACUK8R,U02KRBL6PUZ,U03FRS55EH0,U055TK31SRZ,USMG90BPX,U02GC631S74,U023A6S3CDS,U04RQEE5K9B,U055TK33ZCK,U064DBSFMV1,U02P40PEF,U03LA7C5U,U05KP9JQ5A7,U05MXDYEKUM,U04PW0Y836V,U050T7YBFT7,U05CLMNQ5SR,U05Q25J095Y,U06CQSNTVPS,U06DHCXK74Y,U5WHN2119,U05EU9WLTFZ,U01T2UKUUE5,USR7N41L6,U037AP3375Y,U01L7TR6SDA,U01LEBZ9AEM,U04MKSV7MHS,U03TX4XJ9N1,U037D3RDN92,UB0DU52BB,U03FU7HS8R2,U062Y1D3VTR,U03J2NN3B,UA17MN57H,U04RTNLUF2N,U7ND8T9NZ,U02KCPHJ291,U055M4YM53Q,U02KF01CSEQ,U034ELL75R6,U0152GGV24U,U03CCJHECN4,U3AHURR8E,U03PW8Q776W,U04FUNG3RA7,U02K61SNQTG,U05ADS6JU2D,U0430JXL9EG,U9JFAU334,U033T7W6Z7E,U05PZ8ZMVBP,U05SYBF4DDH,U055W7PQHC4,U02K61S6F2S,U03L0D1LU05,U7KMXUQSJ,U01FQ59ENH3,U03ECKFFVL7,U05J01QGYAG,UD5N4T2H4,UL5DSE0H5,UTCHN6GBF,U05AJ4A0AGL,U03JQ2Z8R,U01P45MCQ8N,U01SQGQQF2P,U012SNRVB0W,U03GWRHK16V,U0377SE5F9B,U02A9LVTCDD,U0136HM7W5D,U02GC6B8R1R,U023487121Z,U05F26BR24E,U02GEBHFUR2,U04MARXEMGE,U037D3RAA12,U0405EU74E5,USLACKBOT,U042AMLBG31,U8031NZHU,U03S76B6612,U01DQ55AJA2,U037NC6C8DN,U06GNPMRB2P,U06GNKQFK5Y,UPLF0U7SR,U06C23NJ6RY (1) 
+[02/02/24, 20:22:08:570] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.569 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[02/02/24, 20:22:08:570] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.569 api.getFlannelHttpUrl is ENQUEUED 
+[02/02/24, 20:22:08:614] info: [FLANNEL] (T02LLEZNT) received a user_subscribe_request call while we are not connected; deferring 
+[02/02/24, 20:22:08:617] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.531 search.autocomplete.topEmojis is RESOLVED 
+[02/02/24, 20:22:08:619] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.569 api.getFlannelHttpUrl is ACTIVE 
+[02/02/24, 20:22:08:628] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.627 users.channelSections.list called with reason: conditional-fetch-manager 
+[02/02/24, 20:22:08:629] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.627 users.channelSections.list is ENQUEUED 
+[02/02/24, 20:22:08:633] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.632 help.issues.ticketStats called with reason: fetchAndUpsertTicketStats 
+[02/02/24, 20:22:08:634] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.632 help.issues.ticketStats is ENQUEUED 
+[02/02/24, 20:22:08:643] info: [DND_V2] (T02LLEZNT) fetchAndUpsertDndForUsers - Preparing to fetch DND times for the following members: U042AMLBG31 
+[02/02/24, 20:22:08:644] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.643 dnd.info called with reason: fetchAndUpsertDndForUsers-getDndTimesFor:self 
+[02/02/24, 20:22:08:645] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.643 dnd.info is ENQUEUED 
+[02/02/24, 20:22:08:645] info: [UFM] (T02LLEZNT) requesting C02LLEZPV (1) 
+[02/02/24, 20:22:08:695] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [theme,notificationPrefs,unreads] 
+[02/02/24, 20:22:08:696] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [connectivityPrefs] 
+[02/02/24, 20:22:08:696] info: Store: STORE_USER_WORKSPACES {
+  "userTeamId": "T02LLEZNT",
+  "workspaceIds": [
+    "T02LLEZNT"
+  ]
+} 
+[02/02/24, 20:22:08:697] info: Store: SELECTION_CHANGED T02LLEZNT 
+[02/02/24, 20:22:08:697] info: Store: EXTEND_MENU global: menucategory-file,menucategory-view,menucategory-jump-to 
+[02/02/24, 20:22:08:698] info: Store: EXTEND_MENU T02LLEZNT: menucategory-file,menucategory-view,menucategory-edit,menucategory-history,menucategory-help 
+[02/02/24, 20:22:08:698] info: Store: EXTEND_MENU global: menucategory-file,menucategory-view,menucategory-jump-to 
+[02/02/24, 20:22:08:724] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.543 client.appCommands is RESOLVED 
+[02/02/24, 20:22:08:725] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.326 calendar.getInstalledCalendars is ACTIVE 
+[02/02/24, 20:22:08:728] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.547 files.list is RESOLVED 
+[02/02/24, 20:22:08:730] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.482 users.prefs.set is ACTIVE 
+[02/02/24, 20:22:08:732] info: [API-Q] (T02LLEZNT) 40c9db46-1706901727.549 links.getDomains is RESOLVED 
+[02/02/24, 20:22:08:733] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.627 users.channelSections.list is ACTIVE 
+[02/02/24, 20:22:08:734] info: [ENDPOINT-MANAGER] (T02LLEZNT) socketUrl - got endpoint 
+[02/02/24, 20:22:08:743] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.068 drafts.list is RESOLVED 
+[02/02/24, 20:22:08:745] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.632 help.issues.ticketStats is ACTIVE 
+[02/02/24, 20:22:08:747] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.072 workflows.triggers.listRecentlyRunForUser is RESOLVED 
+[02/02/24, 20:22:08:748] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.643 dnd.info is ACTIVE 
+[02/02/24, 20:22:08:749] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.075 megaphone.notifications.list is RESOLVED 
+[02/02/24, 20:22:08:751] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.077 megaphone.notifications.list is RESOLVED 
+[02/02/24, 20:22:08:753] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.312 teams.trials.info is RESOLVED 
+[02/02/24, 20:22:08:755] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.314 users.prefs.get is RESOLVED 
+[02/02/24, 20:22:08:758] info: [OBJECT-STORE] attempting to delete shards [] 
+[02/02/24, 20:22:08:787] info: [DRAFTS] (T02LLEZNT) No active drafts 
+[02/02/24, 20:22:08:788] info: [DRAFTS] (T02LLEZNT) Successfully fetched all active and inactive drafts ✨ 
+[02/02/24, 20:22:08:835] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.569 api.getFlannelHttpUrl is RESOLVED 
+[02/02/24, 20:22:08:845] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901728.516 api.features is RESOLVED 
+[02/02/24, 20:22:08:856] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901728.515 experiments.getByUser is RESOLVED 
+[02/02/24, 20:22:08:878] info: [BOOT] Feature flag config version: 1706901728; Experiments config version: 1706901728 
+[02/02/24, 20:22:08:879] info: [BOOT] Current earliest config version: 1706901726; All config versions: {"T02LLEZNT":1706901726,"T04CVTGJKC2":1706901728} 
+[02/02/24, 20:22:09:034] info: [PERF] (T02LLEZNT) First meaningful paint: 4790ms 
+[02/02/24, 20:22:09:036] info: [DRAFTS] (T02LLEZNT) There are no channels with drafts 
+[02/02/24, 20:22:09:037] info: [BOOT] (T02LLEZNT) Beaconed client boot mount success 
+[02/02/24, 20:22:09:039] info: [API-Q] (T02LLEZNT) 40c9db46-1706901729.038 sharedInvites.canGetLink called with reason: sidebar-mount 
+[02/02/24, 20:22:09:039] info: [API-Q] (T02LLEZNT) 40c9db46-1706901729.038 sharedInvites.canGetLink is ENQUEUED 
+[02/02/24, 20:22:09:587] info: [API-Q] (T02LLEZNT) 40c9db46-1706901729.038 sharedInvites.canGetLink is ACTIVE 
+[02/02/24, 20:22:09:590] info: [API-Q] (T02LLEZNT) noversion-1706901729.588 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:09:590] info: [API-Q] (T02LLEZNT) noversion-1706901729.588 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:09:591] info: [API-Q] (T02LLEZNT) noversion-1706901729.590 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:09:591] info: [API-Q] (T02LLEZNT) noversion-1706901729.590 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:09:591] info: [API-Q] (T02LLEZNT) noversion-1706901729.591 Flannel huddles/info called with reason: flannel-call:huddles/info 
+[02/02/24, 20:22:09:592] info: [API-Q] (T02LLEZNT) noversion-1706901729.591 Flannel huddles/info is ENQUEUED 
+[02/02/24, 20:22:09:592] info: [API-Q] (T02LLEZNT) noversion-1706901729.591 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[02/02/24, 20:22:09:592] info: [API-Q] (T02LLEZNT) noversion-1706901729.591 Flannel permissions/info is ENQUEUED 
+[02/02/24, 20:22:09:593] info: [API-Q] (T02LLEZNT) noversion-1706901729.592 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[02/02/24, 20:22:09:593] info: [API-Q] (T02LLEZNT) noversion-1706901729.592 Flannel permissions/info is ENQUEUED 
+[02/02/24, 20:22:09:593] info: [API-Q] (T02LLEZNT) noversion-1706901729.593 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[02/02/24, 20:22:09:594] info: [API-Q] (T02LLEZNT) noversion-1706901729.593 Flannel permissions/info is ENQUEUED 
+[02/02/24, 20:22:09:594] info: [API-Q] (T02LLEZNT) noversion-1706901729.593 Flannel emojis/info called with reason: flannel-call:emojis/info 
+[02/02/24, 20:22:09:594] info: [API-Q] (T02LLEZNT) noversion-1706901729.593 Flannel emojis/info is ENQUEUED 
+[02/02/24, 20:22:09:595] info: [API-Q] (T02LLEZNT) noversion-1706901729.588 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:09:595] info: [API-Q] (T02LLEZNT) noversion-1706901729.590 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:09:596] info: [API-Q] (T02LLEZNT) noversion-1706901729.591 Flannel huddles/info is ACTIVE 
+[02/02/24, 20:22:09:597] info: [API-Q] (T02LLEZNT) noversion-1706901729.591 Flannel permissions/info is ACTIVE 
+[02/02/24, 20:22:09:633] info: [OBJECT-STORE-T04CVTGJ] openDB initializing at version 226 
+[02/02/24, 20:22:09:634] info: [OBJECT-STORE-T04CVTGJ] openDB adding stores ["sundryStorage"] 
+[02/02/24, 20:22:09:635] info: [OBJECT-STORE-T04CVTGJ] openDB removing stores [] 
+[02/02/24, 20:22:09:635] info: [OBJECT-STORE-T04CVTGJ] openDB clearing stores [] 
+[02/02/24, 20:22:09:636] info: [WD] All assets have reported back; s: 16; f: 0 
+[02/02/24, 20:22:09:969] info: [PERF] (T02LLEZNT) Logged time to visible (TTV): 9641.80000000028 
+[02/02/24, 20:22:09:990] warn: Listener added for a synchronous 'DOMNodeInserted' DOM Mutation Event. This event type is deprecated (https://w3c.github.io/uievents/#legacy-event-types) and work is underway to remove it from this browser. Usage of this event listener will cause performance issues today, and represents a risk of future incompatibility. Consider using MutationObserver instead. 
+[02/02/24, 20:22:10:110] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.108 channels.prefs.get called with reason: message-pane-input 
+[02/02/24, 20:22:10:111] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.108 channels.prefs.get is ENQUEUED 
+[02/02/24, 20:22:10:169] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.167 search.autocomplete.model called with reason: AutocompleteModelCache 
+[02/02/24, 20:22:10:169] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.167 search.autocomplete.model is ENQUEUED 
+[02/02/24, 20:22:10:172] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.171 search.autocomplete.offlineFeatures called with reason: search-offline-features 
+[02/02/24, 20:22:10:173] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.171 search.autocomplete.offlineFeatures is ENQUEUED 
+[02/02/24, 20:22:10:190] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.189 users.interactions.list called with reason: useClipsNUXUserInteractions 
+[02/02/24, 20:22:10:191] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.189 users.interactions.list is ENQUEUED 
+[02/02/24, 20:22:10:192] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.191 users.interactions.list called with reason: useClipsNUXUserInteractions 
+[02/02/24, 20:22:10:193] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.191 users.interactions.list is ENQUEUED 
+[02/02/24, 20:22:10:725] info: [CHECK-UNREADS] (T02LLEZNT) unreadLineVisible updated in main window container primary: undefined -> true 
+[02/02/24, 20:22:10:734] info: [PERF] (T02LLEZNT) Logged time to usable (TTU): 10411.399999999907 
+[02/02/24, 20:22:10:898] info: [API-Q] (T02LLEZNT) noversion-1706901730.897 Flannel users/list called with reason: flannel-call:users/list 
+[02/02/24, 20:22:10:899] info: [API-Q] (T02LLEZNT) noversion-1706901730.897 Flannel users/list is ENQUEUED 
+[02/02/24, 20:22:11:191] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.326 calendar.getInstalledCalendars is RESOLVED 
+[02/02/24, 20:22:11:193] info: [API-Q] (T02LLEZNT) noversion-1706901730.897 Flannel users/list is ACTIVE 
+[02/02/24, 20:22:11:195] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.627 users.channelSections.list is RESOLVED 
+[02/02/24, 20:22:11:196] info: [API-Q] (T02LLEZNT) noversion-1706901729.593 Flannel emojis/info is ACTIVE 
+[02/02/24, 20:22:11:198] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.482 users.prefs.set is RESOLVED 
+[02/02/24, 20:22:11:199] info: [API-Q] (T02LLEZNT) noversion-1706901729.593 Flannel permissions/info is ACTIVE 
+[02/02/24, 20:22:11:201] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.632 help.issues.ticketStats is RESOLVED 
+[02/02/24, 20:22:11:202] info: [API-Q] (T02LLEZNT) noversion-1706901729.592 Flannel permissions/info is ACTIVE 
+[02/02/24, 20:22:11:204] info: [API-Q] (T02LLEZNT) 40c9db46-1706901728.643 dnd.info is RESOLVED 
+[02/02/24, 20:22:11:205] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.108 channels.prefs.get is ACTIVE 
+[02/02/24, 20:22:11:208] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.207 team.targetingCriteria called with reason: team_targeting_criteria 
+[02/02/24, 20:22:11:209] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.207 team.targetingCriteria is ENQUEUED 
+[02/02/24, 20:22:11:213] info: [API-Q] (T02LLEZNT) noversion-1706901731.212 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[02/02/24, 20:22:11:213] info: [API-Q] (T02LLEZNT) noversion-1706901731.212 Flannel permissions/info is ENQUEUED 
+[02/02/24, 20:22:11:218] info: [API-Q] (T02LLEZNT) noversion-1706901731.217 Flannel channels/info called with reason: flannel-call:channels/info 
+[02/02/24, 20:22:11:219] info: [API-Q] (T02LLEZNT) noversion-1706901731.217 Flannel channels/info is ENQUEUED 
+[02/02/24, 20:22:11:219] info: [UFM-TEAMS] (T02LLEZNT) requesting T0A28T6MN (1) 
+[02/02/24, 20:22:11:221] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.220 team.info called with reason: UnknownFetchManager 
+[02/02/24, 20:22:11:222] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.220 team.info is ENQUEUED 
+[02/02/24, 20:22:11:234] info: [PERSIST] (T04CVTGJKC2) Purged model 
+[02/02/24, 20:22:11:235] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901731.234 client.userBoot called with reason: initial-data 
+[02/02/24, 20:22:11:235] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901731.234 client.userBoot is ENQUEUED 
+[02/02/24, 20:22:11:235] info: [BOOT] (T04CVTGJKC2) Booting with empty store 
+[02/02/24, 20:22:11:237] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901731.234 client.userBoot is ACTIVE 
+[02/02/24, 20:22:11:241] info: [BOOT] (T04CVTGJKC2) Configuring redux store 
+[02/02/24, 20:22:11:255] info: [DESKTOP-MIDDLEWARE] (T04CVTGJKC2) Forwarding redux payload to desktop ["theme","notificationPrefs","connectivityPrefs","featureFlags","unreads","locale","version","userId"] 
+[02/02/24, 20:22:11:262] info: [API-Q] (T02LLEZNT) noversion-1706901731.260 Flannel users/counts called with reason: flannel-call:users/counts 
+[02/02/24, 20:22:11:262] info: [API-Q] (T02LLEZNT) noversion-1706901731.260 Flannel users/counts is ENQUEUED 
+[02/02/24, 20:22:11:262] info: [UFM] (T02LLEZNT) requesting C02LLEZPV (1) 
+[02/02/24, 20:22:11:263] info: [UFM] (T02LLEZNT) received C02LLEZPV (1) 
+[02/02/24, 20:22:11:386] info: [API-Q] (T02LLEZNT) 40c9db46-1706901729.038 sharedInvites.canGetLink is RESOLVED 
+[02/02/24, 20:22:11:388] info: [API-Q] (T02LLEZNT) noversion-1706901731.260 Flannel users/counts is ACTIVE 
+[02/02/24, 20:22:11:389] info: [UFM-FILES] (T02LLEZNT) requesting F05GB8S4RQV (1) 
+[02/02/24, 20:22:11:392] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.390 files.info called with reason: files-store-unknown-fetch 
+[02/02/24, 20:22:11:392] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.390 files.info is ENQUEUED 
+[02/02/24, 20:22:11:392] info: [UFM] (T02LLEZNT) requesting F05GB8S4RQV (1) 
+[02/02/24, 20:22:11:394] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.393 quip.lookupThreadIds called with reason: fetch-quip-ids 
+[02/02/24, 20:22:11:395] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.393 quip.lookupThreadIds is ENQUEUED 
+[02/02/24, 20:22:11:395] info: [UFM] (T02LLEZNT) requesting F05GB8S4RQV (1) 
+[02/02/24, 20:22:11:396] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.395 files.readStatus called with reason: fetch-slack-doc-last-read 
+[02/02/24, 20:22:11:397] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.395 files.readStatus is ENQUEUED 
+[02/02/24, 20:22:11:397] info: [UFM] (T02LLEZNT) requesting C02LLEZPV (1) 
+[02/02/24, 20:22:11:398] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.398 bookmarks.list called with reason: bookmarks-store/conditional-fetching 
+[02/02/24, 20:22:11:399] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.398 bookmarks.list is ENQUEUED 
+[02/02/24, 20:22:11:401] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.400 conversations.listPrefs called with reason: client_redux_store 
+[02/02/24, 20:22:11:401] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.400 conversations.listPrefs is ENQUEUED 
+[02/02/24, 20:22:11:403] warn: AutoTrace removed with reason: Stopped AutoTrace for key: composer:instantiation-xmxdlxzk 
+[02/02/24, 20:22:11:405] info: [UFM] (T02LLEZNT) requesting A0F82E57C (1) 
+[02/02/24, 20:22:11:407] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.406 apps.profile.get called with reason: fetch-all-apps-by-id 
+[02/02/24, 20:22:11:408] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.406 apps.profile.get is ENQUEUED 
+[02/02/24, 20:22:11:408] info: [UFM] (T02LLEZNT) requesting B041C5B8KD0 (1) 
+[02/02/24, 20:22:11:410] info: [API-Q] (T02LLEZNT) noversion-1706901731.409 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:11:410] info: [API-Q] (T02LLEZNT) noversion-1706901731.409 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:11:410] info: [UFM] (T02LLEZNT) requesting T02LLEZNT:B041C5B8KD0 (1) 
+[02/02/24, 20:22:11:412] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.411 apps.profile.get called with reason: fetch-legacy-app-profile 
+[02/02/24, 20:22:11:412] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.411 apps.profile.get is ENQUEUED 
+[02/02/24, 20:22:11:414] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.413 sharedInvites.canGetLink called with reason: slack-connect-dm-eligibility-cfm 
+[02/02/24, 20:22:11:414] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.413 sharedInvites.canGetLink is ENQUEUED 
+[02/02/24, 20:22:11:415] info: [UFM-FLANNELEMOJI] (T02LLEZNT) requesting 3 objects (1) 
+[02/02/24, 20:22:11:416] info: [API-Q] (T02LLEZNT) noversion-1706901731.415 Flannel emojis/info called with reason: flannel-call:emojis/info 
+[02/02/24, 20:22:11:417] info: [API-Q] (T02LLEZNT) noversion-1706901731.415 Flannel emojis/info is ENQUEUED 
+[02/02/24, 20:22:11:571] info: [SOCKET-MANAGER] (T02LLEZNT) Changing from prov_connecting to prov_connected 
+[02/02/24, 20:22:11:571] info: [SOCKET-MANAGER] (T02LLEZNT) will stay in prov_connected state for up to 60000 ms 
+[02/02/24, 20:22:11:577] info: [SOCKET-MANAGER] (T02LLEZNT) Changing from prov_connected to prov_finalize 
+[02/02/24, 20:22:11:577] info: [SOCKET-MANAGER] (T02LLEZNT) will stay in prov_finalize state for up to 10000 ms 
+[02/02/24, 20:22:11:578] info: [SOCKET-MANAGER] (T02LLEZNT) Changing from prov_finalize to prov_finalizing 
+[02/02/24, 20:22:11:579] info: [SOCKET-MANAGER] (T02LLEZNT) will stay in prov_finalizing state for up to 10000 ms 
+[02/02/24, 20:22:11:579] info: [SOCKET-MANAGER] (T02LLEZNT) Changing from prov_finalizing to connected 
+[02/02/24, 20:22:11:580] info: [SOCKET-MANAGER] (T02LLEZNT) will stay in connected state for up to Infinity ms 
+[02/02/24, 20:22:11:581] info: [SOCKET-MANAGER] (T02LLEZNT) Connected to primary region 
+[02/02/24, 20:22:11:584] info: [FLANNEL] (T02LLEZNT) connected and trouble free! Continuing deferred user_subscribe_request call 
+[02/02/24, 20:22:11:597] info: [MESSAGE-HISTORY] (T02LLEZNT) Resetting reachedEnd 
+[02/02/24, 20:22:11:601] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.600 users.customStatus.list called with reason: fetchCustomStatusOnReconnect 
+[02/02/24, 20:22:11:601] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.600 users.customStatus.list is ENQUEUED 
+[02/02/24, 20:22:11:607] info: [UNREAD-COUNTS] (T02LLEZNT) Fetching counts 
+[02/02/24, 20:22:11:609] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.607 client.counts called with reason: client-counts-api/fetchClientCounts 
+[02/02/24, 20:22:11:609] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.607 client.counts is ENQUEUED 
+[02/02/24, 20:22:11:620] info: [PRESENCE_PROMPT] (T02LLEZNT) ignoring prompt due to pref 
+[02/02/24, 20:22:11:624] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.624 calendar.user.info called with reason: calendar-get-user-info 
+[02/02/24, 20:22:11:625] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.624 calendar.user.info is ENQUEUED 
+[02/02/24, 20:22:11:629] info: [RTM-EVENT-METRICS] Metrics collection enabled for the current interval. 
+[02/02/24, 20:22:11:630] info: [DND] (T02LLEZNT) Fetched DND info for the following member: U042AMLBG31 
+[02/02/24, 20:22:11:632] info: [DND_V2] (T02LLEZNT) Will check for changes in DND status again in 5 minutes 
+[02/02/24, 20:22:11:633] info: [API-Q] (T02LLEZNT) noversion-1706901730.897 Flannel users/list is RESOLVED 
+[02/02/24, 20:22:11:633] info: [API-Q] (T02LLEZNT) noversion-1706901731.415 Flannel emojis/info is ACTIVE 
+[02/02/24, 20:22:11:633] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04CVTGJKC2) Changed keys [theme,notificationPrefs,connectivityPrefs,featureFlags,unreads,locale,version,userId] 
+[02/02/24, 20:22:11:634] info: [CHECK-UNREADS] (T02LLEZNT) Checking unreads after unread line became visible 
+[02/02/24, 20:22:11:634] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C02LLEZPV because last_read >= latest && channel is read 
+[02/02/24, 20:22:11:634] info: [API-Q] (T02LLEZNT) noversion-1706901729.593 Flannel permissions/info is RESOLVED 
+[02/02/24, 20:22:11:635] info: [API-Q] (T02LLEZNT) noversion-1706901731.409 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:11:635] info: [API-Q] (T02LLEZNT) noversion-1706901729.592 Flannel permissions/info is RESOLVED 
+[02/02/24, 20:22:11:635] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.220 team.info is ACTIVE 
+[02/02/24, 20:22:11:636] info: [API-Q] (T02LLEZNT) noversion-1706901729.593 Flannel emojis/info is RESOLVED 
+[02/02/24, 20:22:11:636] info: [API-Q] (T02LLEZNT) noversion-1706901731.217 Flannel channels/info is ACTIVE 
+[02/02/24, 20:22:11:637] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.108 channels.prefs.get is RESOLVED 
+[02/02/24, 20:22:11:637] info: [API-Q] (T02LLEZNT) noversion-1706901731.212 Flannel permissions/info is ACTIVE 
+[02/02/24, 20:22:11:753] info: [HISTORY-FETCH] (T02LLEZNT) Fetching history for message pane: C02LLEZPV oldest: 1706867068.021409 latest: null 
+[02/02/24, 20:22:11:754] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.753 conversations.history called with reason: message-pane/requestHistory 
+[02/02/24, 20:22:11:754] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.753 conversations.history is ENQUEUED 
+[02/02/24, 20:22:11:756] info: [CHECK-UNREADS] (T02LLEZNT) unreadLineVisible updated in main window container primary: true -> false 
+[02/02/24, 20:22:11:772] info: [MESSAGE-LIST] (T02LLEZNT) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 24 
+[02/02/24, 20:22:11:812] info: [API-Q] (T02LLEZNT) noversion-1706901729.588 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:11:812] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.167 search.autocomplete.model is ACTIVE 
+[02/02/24, 20:22:11:812] info: [API-Q] (T02LLEZNT) noversion-1706901729.590 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:11:813] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.171 search.autocomplete.offlineFeatures is ACTIVE 
+[02/02/24, 20:22:11:813] info: [API-Q] (T02LLEZNT) noversion-1706901729.591 Flannel huddles/info is RESOLVED 
+[02/02/24, 20:22:11:813] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.189 users.interactions.list is ACTIVE 
+[02/02/24, 20:22:11:814] info: [API-Q] (T02LLEZNT) noversion-1706901729.591 Flannel permissions/info is RESOLVED 
+[02/02/24, 20:22:11:814] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.191 users.interactions.list is ACTIVE 
+[02/02/24, 20:22:11:824] info: [DND_V2] (T02LLEZNT) fetchAndUpsertDndForUsers - Preparing to fetch DND times for the following members: U3AHURR8E 
+[02/02/24, 20:22:11:824] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.824 dnd.teamInfo called with reason: fetchAndUpsertDndForUsers-getDndTimesFor:others 
+[02/02/24, 20:22:11:824] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.824 dnd.teamInfo is ENQUEUED 
+[02/02/24, 20:22:11:861] info: [UFM-MEMBERS] (T02LLEZNT) received U03NKTG8UTE,U04KMTG8VL2,U0HKV2NMB,UKAJ75LCE,U050PDM2ET0,U03HN0G6E,ULMKSA7NX,U016N2S6TGR,U05ACNA7QKF,U02LLEZP3,U02LLFCF9,UNV7YJC76,U02K9PPRVFX,U06C4GSMVRA,U015SACUK8R,U02KRBL6PUZ,U03FRS55EH0,U055TK31SRZ,USMG90BPX,U02GC631S74,U023A6S3CDS,U04RQEE5K9B,U055TK33ZCK,U064DBSFMV1,U02P40PEF,U03LA7C5U,U05KP9JQ5A7,U05MXDYEKUM,U04PW0Y836V,U050T7YBFT7,U05CLMNQ5SR,U05Q25J095Y,U06CQSNTVPS,U06DHCXK74Y,U5WHN2119,U05EU9WLTFZ,U01T2UKUUE5,USR7N41L6,U037AP3375Y,U01L7TR6SDA,U01LEBZ9AEM,U04MKSV7MHS,U03TX4XJ9N1,U037D3RDN92,UB0DU52BB,U03FU7HS8R2,U062Y1D3VTR,U03J2NN3B,UA17MN57H,U04RTNLUF2N,U7ND8T9NZ,U02KCPHJ291,U055M4YM53Q,U02KF01CSEQ,U034ELL75R6,U0152GGV24U,U03CCJHECN4,U3AHURR8E,U03PW8Q776W,U04FUNG3RA7,U02K61SNQTG,U05ADS6JU2D,U0430JXL9EG,U9JFAU334,U033T7W6Z7E,U05PZ8ZMVBP,U05SYBF4DDH,U055W7PQHC4,U02K61S6F2S,U03L0D1LU05,U7KMXUQSJ,U01FQ59ENH3,U03ECKFFVL7,U05J01QGYAG,UD5N4T2H4,UL5DSE0H5,UTCHN6GBF,U05AJ4A0AGL,U03JQ2Z8R,U01P45MCQ8N,U01SQGQQF2P,U012SNRVB0W,U03GWRHK16V,U0377SE5F9B,U02A9LVTCDD,U0136HM7W5D,U02GC6B8R1R,U023487121Z,U05F26BR24E,U02GEBHFUR2,U04MARXEMGE,U037D3RAA12,U0405EU74E5,USLACKBOT,U042AMLBG31,U8031NZHU,U03S76B6612,U01DQ55AJA2,U037NC6C8DN,U06GNPMRB2P,U06GNKQFK5Y,UPLF0U7SR,U06C23NJ6RY (1) 
+[02/02/24, 20:22:11:867] info: [BOOT-QUEUE] T04CVTGJKC2 noversion-1706901731.234 client.userBoot is RESOLVED 
+[02/02/24, 20:22:11:870] info: [BOOT] (T04CVTGJKC2) Dispatching API data 
+[02/02/24, 20:22:11:870] info: [BOOT] (T04CVTGJKC2) Dispatching boot data 
+[02/02/24, 20:22:11:877] info: [DESKTOP-MIDDLEWARE] (T04CVTGJKC2) Forwarding redux payload to desktop ["featureFlags","userId"] 
+[02/02/24, 20:22:11:881] info: [DESKTOP-MIDDLEWARE] (T04CVTGJKC2) Forwarding redux payload to desktop ["notificationPrefs","unreads"] 
+[02/02/24, 20:22:11:882] info: [DESKTOP-MIDDLEWARE] (T04CVTGJKC2) Forwarding redux payload to desktop ["connectivityPrefs"] 
+[02/02/24, 20:22:11:907] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[02/02/24, 20:22:11:908] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.907 search.autocomplete.topEmojis called with reason: loadEmoji-maybeReloadEmoji-setModelData 
+[02/02/24, 20:22:11:908] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.907 search.autocomplete.topEmojis is ENQUEUED 
+[02/02/24, 20:22:11:908] info: [BOOT] (T04CVTGJKC2) workspaces changed since last boot -- invalidating cached state 
+[02/02/24, 20:22:11:911] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.910 client.appCommands called with reason: set-model-data 
+[02/02/24, 20:22:11:911] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.910 client.appCommands is ENQUEUED 
+[02/02/24, 20:22:11:914] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.911 files.list called with reason: paperclip-recents 
+[02/02/24, 20:22:11:914] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.911 files.list is ENQUEUED 
+[02/02/24, 20:22:11:914] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.912 links.getDomains called with reason: siws-get-domains 
+[02/02/24, 20:22:11:914] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.912 links.getDomains is ENQUEUED 
+[02/02/24, 20:22:11:917] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.907 search.autocomplete.topEmojis is ACTIVE 
+[02/02/24, 20:22:11:923] info: [BOOT] (T04CVTGJKC2) processing mutation timestamps for C04CP9WD7F0 
+[02/02/24, 20:22:11:923] info: [COUNTS] (T04CVTGJKC2) purging cached history for channel C04CP9WD7F0 since counts history_invalid 1704452659.000400 > cached historyInvalidTs undefined 
+[02/02/24, 20:22:11:927] info: [PLATFORM-CHANNEL-ACTI] (T04CVTGJKC2) setting count for channel C04CP9WD7F0 to 0, and marking channel as stale. 
+[02/02/24, 20:22:11:930] info: [BOOT] (T04CVTGJKC2) Boot complete 
+[02/02/24, 20:22:11:955] info: [DESKTOP-SIDE-EFFECT] (T04CVTGJKC2) Reacting to  {"type":"[1147] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[02/02/24, 20:22:11:956] info: [SOCKET-MANAGER] (T04CVTGJKC2) Changing from never_connected to prov_connect 
+[02/02/24, 20:22:11:957] info: [SOCKET-MANAGER] (T04CVTGJKC2) will stay in prov_connect state for up to 10000 ms 
+[02/02/24, 20:22:11:957] info: [SOCKET-MANAGER] (T04CVTGJKC2) Connecting with token ending: c5a1 
+[02/02/24, 20:22:11:957] info: [SOCKET-MANAGER] (T04CVTGJKC2) Changing from prov_connect to prov_connecting 
+[02/02/24, 20:22:11:957] info: [SOCKET-MANAGER] (T04CVTGJKC2) will stay in prov_connecting state for up to 35000 ms 
+[02/02/24, 20:22:11:958] info: [ENDPOINT-MANAGER] (T04CVTGJKC2) No stale versions to clear. 
+[02/02/24, 20:22:11:958] info: [ENDPOINT-MANAGER] (T04CVTGJKC2) socketUrl - fetching endpoint 
+[02/02/24, 20:22:11:958] info: [SOCKET-MANAGER-MIDDLE] (T04CVTGJKC2) Initialized Socket Manager instance 
+[02/02/24, 20:22:11:975] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[02/02/24, 20:22:11:977] info: [DESKTOP-SIDE-EFFECT] (T04CVTGJKC2) Creating desktop delegate 
+[02/02/24, 20:22:11:978] info: Exposing workspace desktop delegate for  {
+  "workspaceId": "T04CVTGJKC2"
+} 
+[02/02/24, 20:22:11:980] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.980 drafts.list called with reason: client-v2-boot-team 
+[02/02/24, 20:22:11:980] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.980 drafts.list is ENQUEUED 
+[02/02/24, 20:22:11:980] info: [DRAFTS] (T04CVTGJKC2) No local drafts - skipping fetch to purge inactive drafts 
+[02/02/24, 20:22:11:980] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.980 workflows.triggers.listRecentlyRunForUser called with reason: fetch_and_upsert_recently_run_triggers 
+[02/02/24, 20:22:11:980] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.980 workflows.triggers.listRecentlyRunForUser is ENQUEUED 
+[02/02/24, 20:22:11:981] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 megaphone.notifications.list called with reason: boot 
+[02/02/24, 20:22:11:981] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 megaphone.notifications.list is ENQUEUED 
+[02/02/24, 20:22:11:981] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 megaphone.notifications.list called with reason: boot 
+[02/02/24, 20:22:11:981] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 megaphone.notifications.list is ENQUEUED 
+[02/02/24, 20:22:11:981] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 users.prefs.get called with reason: fetch-frecency-prefs 
+[02/02/24, 20:22:11:981] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 users.prefs.get is ENQUEUED 
+[02/02/24, 20:22:11:982] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.982 calendar.getInstalledCalendars called with reason: calendar-get-installed-calendars 
+[02/02/24, 20:22:11:982] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.982 calendar.getInstalledCalendars is ENQUEUED 
+[02/02/24, 20:22:11:985] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.985 users.prefs.set called with reason: prefs-api/setUserPrefByApi 
+[02/02/24, 20:22:11:985] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.985 users.prefs.set is ENQUEUED 
+[02/02/24, 20:22:11:989] info: [MIN-VERSION] Starting client min-version poll. 
+[02/02/24, 20:22:11:992] info: [PERSIST] Purging persisted models, except for the following teamIds ["T02LLEZNT","T04CVTGJKC2"] 
+[02/02/24, 20:22:12:029] info: [CHECK-UNREADS] (T02LLEZNT) Checking unreads after workspace became focused 
+[02/02/24, 20:22:12:030] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C02LLEZPV because last_read >= latest && channel is read 
+[02/02/24, 20:22:12:033] info: [API-Q] (T02LLEZNT) noversion-1706901731.260 Flannel users/counts is RESOLVED 
+[02/02/24, 20:22:12:033] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.207 team.targetingCriteria is ACTIVE 
+[02/02/24, 20:22:12:035] info: [UFM] (T02LLEZNT) received C02LLEZPV (1) 
+[02/02/24, 20:22:12:038] info: [UFM-MEMBERS] (T02LLEZNT) requesting U02HXDXLYH1,UTCGYVCN4,U03KBEZS9,U03FCRNHLUE,U05SRQHL34N,U045U7ZHCKC,U02GDTFBJCU,U05LCV8D2RW,UTCGWJJRE,U05KGJTMEMC,U0519R8MJT0,U02JY38V815,U02D7HE1CG4,U02313PMFCN,U03U00JRM7D,U01GH49DVNC,U02Q5V7NV5K,U02057DHSUB,U020QDJ9V35,U01KV01R70E,U04AWDVJGFP,U02KCP83YSW (1) 
+[02/02/24, 20:22:12:039] info: [API-Q] (T02LLEZNT) noversion-1706901732.038 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:12:039] info: [API-Q] (T02LLEZNT) noversion-1706901732.038 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:12:039] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04CVTGJKC2) Changed keys [featureFlags,userId] 
+[02/02/24, 20:22:12:041] info: [UFM-MEMBERS] (T04CVTGJKC2) requesting U0519ARKF1N,U0557U4AH2S,U055KUJ1KFB,U0557U4RLLE,U05575ME29H,USLACKBOT,U04CVQPUM6F,U055X0A2JKS,U0598V7UMA6,U054ET1JRAQ,U04CSV2H3JR,U04CU6HUJNR (1) 
+[02/02/24, 20:22:12:041] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.041 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[02/02/24, 20:22:12:041] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.041 api.getFlannelHttpUrl is ENQUEUED 
+[02/02/24, 20:22:12:042] info: [FLANNEL] (T04CVTGJKC2) received a user_subscribe_request call while we are not connected; deferring 
+[02/02/24, 20:22:12:047] info: [API-Q] (T02LLEZNT) noversion-1706901731.415 Flannel emojis/info is RESOLVED 
+[02/02/24, 20:22:12:047] info: [API-Q] (T02LLEZNT) noversion-1706901732.038 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:12:047] info: [API-Q] (T02LLEZNT) noversion-1706901731.409 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:12:048] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.390 files.info is ACTIVE 
+[02/02/24, 20:22:12:048] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.220 team.info is RESOLVED 
+[02/02/24, 20:22:12:048] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.393 quip.lookupThreadIds is ACTIVE 
+[02/02/24, 20:22:12:049] info: [API-Q] (T02LLEZNT) noversion-1706901731.217 Flannel channels/info is RESOLVED 
+[02/02/24, 20:22:12:049] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.395 files.readStatus is ACTIVE 
+[02/02/24, 20:22:12:050] info: [API-Q] (T02LLEZNT) noversion-1706901731.212 Flannel permissions/info is RESOLVED 
+[02/02/24, 20:22:12:050] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.398 bookmarks.list is ACTIVE 
+[02/02/24, 20:22:12:053] info: [API-Q] (T02LLEZNT) noversion-1706901732.053 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:12:053] info: [API-Q] (T02LLEZNT) noversion-1706901732.053 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:12:053] info: [UFM] (T02LLEZNT) requesting G01MRBTT762,C050FM4A09H,C0613F7D78F,C049JSH7R1C,C04DSLCJXGS,CGYE3A223,C01FPFT7RFF,C04ECM8PDL4,C066R5GSPT2,C04F40J1F8V,C01AXJETMFA,C05KGC9MQGM,C04TVK9RDU1,C03JDMHMD6V,C05FKS9130X,C04QC9GJAQP,C049YQN3MP0,C05LFL2L4SC,C03GWHRSV,C7FDR8JQ2,C01EDKN9FU3,CAYJFULLW,C0187RF8KEC,C04CW1VU4SU,C992XJEHL,C054P00U18S,CC5LEAKB2,C06EG5HV0HY,C01SRAU10AC,C058CG9E291,C05D6TK10KV,C028ECFHD8W,C01735RHTBP,C04R18VH54M,C048BSQV1L2,C058180T9CL,C0511AZAJ22,CTB9XJXMM,C04HMAL198F,C04P8PSM3H7,C056ASB7SCF,CLCLWRGFP,C04NW5GADSL,C053V1W663F,C05E2UQBB1T,C05R5RWMHPA,C051GKY2PHV,C049ZPCMX7C,C048JAK0YAU,C043MEB4TP1,C05Q48VVDGD,C0517HDREEP,C0561AE1DAA,C04KJU2770D,C04QZP4SF52,C062YL4AJBE,C035ZHYNSCU,C051BE0R92L,C02LLEZQ3,C06EBAERLK1,CTZB4JQ77,C03S6PK1LKW,C057P3RKUAZ,C052U8ETX88,C05FRHPJJ3A,C04K6R1EA2K,C016FC9NZ54,C06F2K12FA9,C04U8JF0258,C052D0DGEN4,C04KB65B73N,C052TAJHMEZ,C04EZTT6QH0,C05KWSJPCL8,C05KKPV89CZ,C05K6TRG4N7,C05T27V6UBH,C04MXDL7CCR,C054E5H6BUL,C062J2GCZ9C,C0673CFBKC5,C0251E164TA,C04P1QRDGV7,C05C3N07L4A,C03S8AJ983E,C05UQ98GQUB,C05E7KGV3QE,C05NRU6ESLS,C05VA791KK8,C04QM9UNSV6,C065G78HJAX,C0671T78B2N,C05LVJD3ASJ,D05SD665B89 (1) 
+[02/02/24, 20:22:12:053] info: [API-Q] (T02LLEZNT) noversion-1706901732.053 Flannel huddles/info called with reason: flannel-call:huddles/info 
+[02/02/24, 20:22:12:053] info: [API-Q] (T02LLEZNT) noversion-1706901732.053 Flannel huddles/info is ENQUEUED 
+[02/02/24, 20:22:12:077] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04CVTGJKC2) Changed keys [notificationPrefs,unreads] 
+[02/02/24, 20:22:12:078] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04CVTGJKC2) Changed keys [connectivityPrefs] 
+[02/02/24, 20:22:12:078] info: Store: STORE_USER_WORKSPACES {
+  "userTeamId": "T04CVTGJKC2",
+  "workspaceIds": [
+    "T04CVTGJKC2"
+  ]
+} 
+[02/02/24, 20:22:12:078] info: Store: SELECTION_CHANGED T02LLEZNT 
+[02/02/24, 20:22:12:079] info: [UFM-FLANNELEMOJI] (T02LLEZNT) received 3 objects (1) 
+[02/02/24, 20:22:12:083] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.167 search.autocomplete.model is RESOLVED 
+[02/02/24, 20:22:12:083] info: [API-Q] (T02LLEZNT) noversion-1706901732.053 Flannel huddles/info is ACTIVE 
+[02/02/24, 20:22:12:084] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.171 search.autocomplete.offlineFeatures is RESOLVED 
+[02/02/24, 20:22:12:085] info: [API-Q] (T02LLEZNT) noversion-1706901732.053 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:12:085] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.189 users.interactions.list is RESOLVED 
+[02/02/24, 20:22:12:085] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.400 conversations.listPrefs is ACTIVE 
+[02/02/24, 20:22:12:086] info: [API-Q] (T02LLEZNT) 40c9db46-1706901730.191 users.interactions.list is RESOLVED 
+[02/02/24, 20:22:12:086] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.406 apps.profile.get is ACTIVE 
+[02/02/24, 20:22:12:086] info: [UFM] (T02LLEZNT) received B041C5B8KD0 (1) 
+[02/02/24, 20:22:12:087] info: [UFM-TEAMS] (T02LLEZNT) received T0A28T6MN (1) 
+[02/02/24, 20:22:12:094] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.907 search.autocomplete.topEmojis is RESOLVED 
+[02/02/24, 20:22:12:095] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.041 api.getFlannelHttpUrl is ACTIVE 
+[02/02/24, 20:22:12:096] info: [API-Q] (T02LLEZNT) noversion-1706901732.038 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:12:096] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.411 apps.profile.get is ACTIVE 
+[02/02/24, 20:22:12:125] info: [API-Q] (T02LLEZNT) noversion-1706901732.125 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[02/02/24, 20:22:12:126] info: [API-Q] (T02LLEZNT) noversion-1706901732.125 Flannel channels/membership is ENQUEUED 
+[02/02/24, 20:22:12:130] info: [UFM-TEAMS] (T02LLEZNT) requesting T39RDN6HZ,T03V082J89L,T04CVTGJKC2 (1) 
+[02/02/24, 20:22:12:130] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.130 team.info called with reason: UnknownFetchManager 
+[02/02/24, 20:22:12:130] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.130 team.info is ENQUEUED 
+[02/02/24, 20:22:12:132] info: [API-Q] (T02LLEZNT) noversion-1706901732.131 Flannel channels/info called with reason: flannel-call:channels/info 
+[02/02/24, 20:22:12:132] info: [API-Q] (T02LLEZNT) noversion-1706901732.131 Flannel channels/info is ENQUEUED 
+[02/02/24, 20:22:12:133] info: [ENDPOINT-MANAGER] (T04CVTGJKC2) socketUrl - got endpoint 
+[02/02/24, 20:22:12:134] info: [UFM-MEMBERS] (T02LLEZNT) received U02HXDXLYH1,UTCGYVCN4,U03KBEZS9,U03FCRNHLUE,U05SRQHL34N,U045U7ZHCKC,U02GDTFBJCU,U05LCV8D2RW,UTCGWJJRE,U05KGJTMEMC,U0519R8MJT0,U02JY38V815,U02D7HE1CG4,U02313PMFCN,U03U00JRM7D,U01GH49DVNC,U02Q5V7NV5K,U02057DHSUB,U020QDJ9V35,U01KV01R70E,U04AWDVJGFP,U02KCP83YSW (1) 
+[02/02/24, 20:22:12:136] info: [API-Q] (T02LLEZNT) noversion-1706901732.053 Flannel huddles/info is RESOLVED 
+[02/02/24, 20:22:12:137] info: [API-Q] (T02LLEZNT) noversion-1706901732.131 Flannel channels/info is ACTIVE 
+[02/02/24, 20:22:12:161] info: [OBJECT-STORE] attempting to delete shards [] 
+[02/02/24, 20:22:12:162] info: [UFM] (T02LLEZNT) received G01MRBTT762,C050FM4A09H,C0613F7D78F,C049JSH7R1C,C04DSLCJXGS,CGYE3A223,C01FPFT7RFF,C04ECM8PDL4,C066R5GSPT2,C04F40J1F8V,C01AXJETMFA,C05KGC9MQGM,C04TVK9RDU1,C03JDMHMD6V,C05FKS9130X,C04QC9GJAQP,C049YQN3MP0,C05LFL2L4SC,C03GWHRSV,C7FDR8JQ2,C01EDKN9FU3,CAYJFULLW,C0187RF8KEC,C04CW1VU4SU,C992XJEHL,C054P00U18S,CC5LEAKB2,C06EG5HV0HY,C01SRAU10AC,C058CG9E291,C05D6TK10KV,C028ECFHD8W,C01735RHTBP,C04R18VH54M,C048BSQV1L2,C058180T9CL,C0511AZAJ22,CTB9XJXMM,C04HMAL198F,C04P8PSM3H7,C056ASB7SCF,CLCLWRGFP,C04NW5GADSL,C053V1W663F,C05E2UQBB1T,C05R5RWMHPA,C051GKY2PHV,C049ZPCMX7C,C048JAK0YAU,C043MEB4TP1,C05Q48VVDGD,C0517HDREEP,C0561AE1DAA,C04KJU2770D,C04QZP4SF52,C062YL4AJBE,C035ZHYNSCU,C051BE0R92L,C02LLEZQ3,C06EBAERLK1,CTZB4JQ77,C03S6PK1LKW,C057P3RKUAZ,C052U8ETX88,C05FRHPJJ3A,C04K6R1EA2K,C016FC9NZ54,C06F2K12FA9,C04U8JF0258,C052D0DGEN4,C04KB65B73N,C052TAJHMEZ,C04EZTT6QH0,C05KWSJPCL8,C05KKPV89CZ,C05K6TRG4N7,C05T27V6UBH,C04MXDL7CCR,C054E5H6BUL,C062J2GCZ9C,C0673CFBKC5,C0251E164TA,C04P1QRDGV7,C05C3N07L4A,C03S8AJ983E,C05UQ98GQUB,C05E7KGV3QE,C05NRU6ESLS,C05VA791KK8,C04QM9UNSV6,C065G78HJAX,C0671T78B2N,C05LVJD3ASJ,D05SD665B89 (1) 
+[02/02/24, 20:22:12:164] info: [SERVICE-WORKER] registration success {} 
+[02/02/24, 20:22:12:164] info: [SERVICE-WORKER-STATE] initial installing 
+[02/02/24, 20:22:12:164] info: [SERVICE-WORKER-STATE] change installed 0ms 
+[02/02/24, 20:22:12:164] info: [SERVICE-WORKER-STATE] change activating 
+[02/02/24, 20:22:12:164] info: [SERVICE-WORKER-STATE] change activated 0ms 
+[02/02/24, 20:22:12:178] info: [API-Q] (T02LLEZNT) noversion-1706901732.053 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:12:179] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.130 team.info is ACTIVE 
+[02/02/24, 20:22:12:180] info: [API-Q] (T02LLEZNT) noversion-1706901732.131 Flannel channels/info is RESOLVED 
+[02/02/24, 20:22:12:180] info: [API-Q] (T02LLEZNT) noversion-1706901732.125 Flannel channels/membership is ACTIVE 
+[02/02/24, 20:22:12:188] info: [PERSIST] Purged persisted models [] 
+[02/02/24, 20:22:12:191] info: [BOOT] Client boot completed 
+[02/02/24, 20:22:12:198] info: [WIN-RESTORE] Cleared window-restoration key in localStorage because all teams have booted. 
+[02/02/24, 20:22:12:199] info: [SIGNAL-TO-DESKTOP] (T02LLEZNT) Attempted boot for all workspaces, signaling desktop 
+[02/02/24, 20:22:12:212] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.212 conversations.genericInfo called with reason: fallback:fetchAndUpsertChannelsById 
+[02/02/24, 20:22:12:212] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.212 conversations.genericInfo is ENQUEUED 
+[02/02/24, 20:22:12:213] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.207 team.targetingCriteria is RESOLVED 
+[02/02/24, 20:22:12:214] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.413 sharedInvites.canGetLink is ACTIVE 
+[02/02/24, 20:22:12:214] info: Store: SYNC Synced 2 workspaces with IDs [T02LLEZNT,T04CVTGJKC2] 
+[02/02/24, 20:22:12:215] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.398 bookmarks.list is RESOLVED 
+[02/02/24, 20:22:12:216] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.600 users.customStatus.list is ACTIVE 
+[02/02/24, 20:22:12:235] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "webapp-loaded"
+} 
+[02/02/24, 20:22:12:235] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 3,
+  "interval": 97739
+} 
+[02/02/24, 20:22:12:235] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "webapp-loaded"
+} 
+[02/02/24, 20:22:12:235] info: [UFM] (T02LLEZNT) received C02LLEZPV (1) 
+[02/02/24, 20:22:12:237] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.393 quip.lookupThreadIds is RESOLVED 
+[02/02/24, 20:22:12:237] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.607 client.counts is ACTIVE 
+[02/02/24, 20:22:12:238] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.395 files.readStatus is RESOLVED 
+[02/02/24, 20:22:12:238] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.624 calendar.user.info is ACTIVE 
+[02/02/24, 20:22:12:239] info: [API-Q] (T02LLEZNT) noversion-1706901732.125 Flannel channels/membership is RESOLVED 
+[02/02/24, 20:22:12:239] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.753 conversations.history is ACTIVE 
+[02/02/24, 20:22:12:241] info: [UFM] (T02LLEZNT) received F05GB8S4RQV (1) 
+[02/02/24, 20:22:12:255] info: [UFM] (T02LLEZNT) received F05GB8S4RQV (1) 
+[02/02/24, 20:22:12:256] warn: UFM (T02LLEZNT) UnknownFetchManager requested 1 objects but received 0. Missing objects: F05GB8S4RQV 
+[02/02/24, 20:22:12:275] info: [SERVICE-WORKER] Retrieving item from Service Worker with key https://slack.com/fake-url-for-service-worker-item-storage/is_sonic_on_gantry_v2_enabled. 
+[02/02/24, 20:22:12:275] info: [SERVICE-WORKER] No matching response found for is_sonic_on_gantry_v2_enabled 
+[02/02/24, 20:22:12:275] info: [BOOT] Writing SoGv2 assignment (true) to Service Worker. 
+[02/02/24, 20:22:12:277] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.400 conversations.listPrefs is RESOLVED 
+[02/02/24, 20:22:12:277] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.824 dnd.teamInfo is ACTIVE 
+[02/02/24, 20:22:12:278] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.041 api.getFlannelHttpUrl is RESOLVED 
+[02/02/24, 20:22:12:278] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 users.prefs.get is ACTIVE 
+[02/02/24, 20:22:12:312] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.406 apps.profile.get is RESOLVED 
+[02/02/24, 20:22:12:312] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.212 conversations.genericInfo is ACTIVE 
+[02/02/24, 20:22:12:314] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.390 files.info is RESOLVED 
+[02/02/24, 20:22:12:316] info: [QUIP] SystemJS Shared Fork initialized 1706901732315-0.6686096953174561 //a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary 
+[02/02/24, 20:22:12:316] info: [QUIP] SystemJS Fork initialized 1706901732316-0.6919924345389443 
+[02/02/24, 20:22:12:320] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:12:320] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:12:320] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:12:320] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:12:320] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[02/02/24, 20:22:12:320] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel permissions/info is ENQUEUED 
+[02/02/24, 20:22:12:321] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.411 apps.profile.get is RESOLVED 
+[02/02/24, 20:22:12:340] info: [UFM] (T02LLEZNT) received A0F82E57C (1) 
+[02/02/24, 20:22:12:342] info: [UFM-FILES] (T02LLEZNT) received F05GB8S4RQV (1) 
+[02/02/24, 20:22:12:343] info: [UFM] (T02LLEZNT) received T02LLEZNT:B041C5B8KD0 (1) 
+[02/02/24, 20:22:12:347] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.130 team.info is RESOLVED 
+[02/02/24, 20:22:12:348] info: [UFM] (T02LLEZNT) requesting A9G1TH4S2 (1) 
+[02/02/24, 20:22:12:349] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.348 apps.profile.get called with reason: fetch-all-apps-by-id 
+[02/02/24, 20:22:12:349] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.348 apps.profile.get is ENQUEUED 
+[02/02/24, 20:22:12:349] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.348 apps.profile.get is ACTIVE 
+[02/02/24, 20:22:12:349] info: [SERVICE-WORKER] Writing (true) to Service Worker with key https://slack.com/fake-url-for-service-worker-item-storage/is_sonic_on_gantry_v2_enabled. 
+[02/02/24, 20:22:12:350] info: [UFM-TEAMS] (T02LLEZNT) received T39RDN6HZ,T03V082J89L,T04CVTGJKC2 (1) 
+[02/02/24, 20:22:12:356] warn: TRACER No valid spans provided. 
+[02/02/24, 20:22:12:383] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.413 sharedInvites.canGetLink is RESOLVED 
+[02/02/24, 20:22:12:385] info: [UFM-MEMBERS] (T02LLEZNT) requesting U041964NYGM (1) 
+[02/02/24, 20:22:12:385] info: [API-Q] (T02LLEZNT) noversion-1706901732.385 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:12:386] info: [API-Q] (T02LLEZNT) noversion-1706901732.385 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:12:386] info: [API-Q] (T02LLEZNT) noversion-1706901732.385 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:12:386] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.600 users.customStatus.list is RESOLVED 
+[02/02/24, 20:22:12:409] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.624 calendar.user.info is RESOLVED 
+[02/02/24, 20:22:12:425] info: [PERSIST] (T02LLEZNT) Successfully persisted state 
+[02/02/24, 20:22:12:425] info: [API-Q] (T02LLEZNT) noversion-1706901732.385 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:12:426] info: [UFM-MEMBERS] (T02LLEZNT) received U041964NYGM (1) 
+[02/02/24, 20:22:12:429] info: [SOCKET-MANAGER] (T04CVTGJKC2) Changing from prov_connecting to prov_connected 
+[02/02/24, 20:22:12:429] info: [SOCKET-MANAGER] (T04CVTGJKC2) will stay in prov_connected state for up to 60000 ms 
+[02/02/24, 20:22:12:431] info: [SOCKET-MANAGER] (T04CVTGJKC2) Changing from prov_connected to prov_finalize 
+[02/02/24, 20:22:12:431] info: [SOCKET-MANAGER] (T04CVTGJKC2) will stay in prov_finalize state for up to 10000 ms 
+[02/02/24, 20:22:12:431] info: [SOCKET-MANAGER] (T04CVTGJKC2) Changing from prov_finalize to prov_finalizing 
+[02/02/24, 20:22:12:431] info: [SOCKET-MANAGER] (T04CVTGJKC2) will stay in prov_finalizing state for up to 10000 ms 
+[02/02/24, 20:22:12:431] info: [SOCKET-MANAGER] (T04CVTGJKC2) Changing from prov_finalizing to connected 
+[02/02/24, 20:22:12:431] info: [SOCKET-MANAGER] (T04CVTGJKC2) will stay in connected state for up to Infinity ms 
+[02/02/24, 20:22:12:433] info: [SOCKET-MANAGER] (T04CVTGJKC2) Connected to primary region 
+[02/02/24, 20:22:12:434] info: [FLANNEL] (T04CVTGJKC2) connected and trouble free! Continuing deferred user_subscribe_request call 
+[02/02/24, 20:22:12:436] info: [MESSAGE-HISTORY] (T04CVTGJKC2) Resetting reachedEnd 
+[02/02/24, 20:22:12:436] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.436 users.customStatus.list called with reason: fetchCustomStatusOnReconnect 
+[02/02/24, 20:22:12:436] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.436 users.customStatus.list is ENQUEUED 
+[02/02/24, 20:22:12:437] info: [UNREAD-COUNTS] (T04CVTGJKC2) Fetching counts 
+[02/02/24, 20:22:12:438] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.437 client.counts called with reason: client-counts-api/fetchClientCounts 
+[02/02/24, 20:22:12:438] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.437 client.counts is ENQUEUED 
+[02/02/24, 20:22:12:439] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.439 users.prefs.set called with reason: prefs-api/setUserPrefByApi 
+[02/02/24, 20:22:12:439] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.439 users.prefs.set is ENQUEUED 
+[02/02/24, 20:22:12:440] info: [PRESENCE_PROMPT] (T04CVTGJKC2) ignoring prompt due to presence (active) 
+[02/02/24, 20:22:12:456] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 users.prefs.get is RESOLVED 
+[02/02/24, 20:22:12:456] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel permissions/info is ACTIVE 
+[02/02/24, 20:22:12:457] info: [PERSIST] (T04CVTGJKC2) Successfully persisted state 
+[02/02/24, 20:22:12:460] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.824 dnd.teamInfo is REJECTED: API not ok user_not_found 
+[02/02/24, 20:22:12:461] warn: DND (T02LLEZNT) Failed to fetch DND info for the following members: U3AHURR8E 
+[02/02/24, 20:22:12:462] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.753 conversations.history is RESOLVED 
+[02/02/24, 20:22:12:463] info: [PLATFORM-CHANNEL-ACTI] (T02LLEZNT) Not updating count for channel C02LLEZPV, as count was already set to 0 
+[02/02/24, 20:22:12:465] info: [PINS] (T02LLEZNT) Pins count updated for channel C02LLEZPV: 4 
+[02/02/24, 20:22:12:466] info: [UNREAD-COUNTS] (T02LLEZNT) Counting unreads in C02LLEZPV because (1) timestamps added 
+[02/02/24, 20:22:12:466] info: [UNREAD-COUNTS] (T02LLEZNT) Checking unreads in C02LLEZPV after a new message 
+[02/02/24, 20:22:12:466] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C02LLEZPV because last_read >= latest && channel is read 
+[02/02/24, 20:22:12:491] info: [MESSAGE-LIST] (T02LLEZNT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 24 
+[02/02/24, 20:22:12:500] info: [CHECK-UNREADS] (T02LLEZNT) unreadLineVisible updated in main window container primary: false -> true 
+[02/02/24, 20:22:12:531] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.212 conversations.genericInfo is RESOLVED 
+[02/02/24, 20:22:12:532] info: [API-Q] (T02LLEZNT) 40c9db46-1706901731.607 client.counts is RESOLVED 
+[02/02/24, 20:22:12:569] info: [COUNTS] (T02LLEZNT) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[02/02/24, 20:22:12:576] info: [COUNTS] (T02LLEZNT) Recounted C02LLEZPV; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[02/02/24, 20:22:12:577] info: [COUNTS] (T02LLEZNT) Threads has_unreads:false mention_count:0 
+[02/02/24, 20:22:12:577] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["unreads"] 
+[02/02/24, 20:22:12:579] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["unreads"] 
+[02/02/24, 20:22:12:580] info: [COUNTS] (T02LLEZNT) Completed counts processing 
+[02/02/24, 20:22:12:580] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["unreads"] 
+[02/02/24, 20:22:12:581] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.348 apps.profile.get is RESOLVED 
+[02/02/24, 20:22:12:651] info: [API-Q] (T02LLEZNT) noversion-1706901732.650 Flannel channels/info called with reason: flannel-call:channels/info 
+[02/02/24, 20:22:12:651] info: [API-Q] (T02LLEZNT) noversion-1706901732.650 Flannel channels/info is ENQUEUED 
+[02/02/24, 20:22:12:651] info: [API-Q] (T02LLEZNT) noversion-1706901732.650 Flannel channels/info is ACTIVE 
+[02/02/24, 20:22:12:651] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [unreads] 
+[02/02/24, 20:22:12:652] info: [UFM] (T02LLEZNT) received A9G1TH4S2 (1) 
+[02/02/24, 20:22:12:660] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel permissions/info is RESOLVED 
+[02/02/24, 20:22:12:660] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:12:680] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [unreads] 
+[02/02/24, 20:22:12:680] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [unreads] 
+[02/02/24, 20:22:12:685] info: [API-Q] (T02LLEZNT) noversion-1706901732.650 Flannel channels/info is RESOLVED 
+[02/02/24, 20:22:12:795] info: [QUIP] (T02LLEZNT) {"type":"set_current_user_id","timestamp_ms":1706901732791,"user_id":"TdX9EAZ1c1a"} 
+[02/02/24, 20:22:12:795] info: [QUIP] (T02LLEZNT) {"type":"indexeddb_event","timestamp_ms":1706901732794,"db_type":0,"description":"Deleting DB","stack":"Error\n    at pu (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:94781)\n    at UJ (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1129467)\n    at https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1130142\n    at https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1503\n    at Object.next (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1608)\n    at https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:2447\n    at new Promise (<anonymous>)\n    at f (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:2192)\n    at FJ (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1129937)\n    at https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1466708\n    at https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1503\n    at Object.next (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1608)\n    at https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:2447\n    at new Promise (<anonymous>)\n    at f (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:2192)\n    at https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1466221\n    at Object.main (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1466769)\n    at https://a.slack-edge.com/bv1-12/gantry-v2-vendors-client.1928190.min.js?cacheKey=gantry-1706897249:1287:18000"} 
+[02/02/24, 20:22:12:796] warn: Deleting IndexedDB database 'quip-test' 
+[02/02/24, 20:22:12:796] warn: TRACER (T02LLEZNT) (canvas:collab-init) was forced closed and marked with the _flush=true tag. 
+[02/02/24, 20:22:12:796] warn: TRACER (T02LLEZNT) (canvas:await-callback) was forced closed and marked with the _flush=true tag. 
+[02/02/24, 20:22:12:811] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.811 conversations.genericInfo called with reason: fallback:fetchAndUpsertChannelsById 
+[02/02/24, 20:22:12:812] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.811 conversations.genericInfo is ENQUEUED 
+[02/02/24, 20:22:12:812] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.811 conversations.genericInfo is ACTIVE 
+[02/02/24, 20:22:12:812] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:12:813] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:12:889] info: [QUIP] (T02LLEZNT) {"type":"indexeddb_event","timestamp_ms":1706901732888,"db_type":1,"description":"Deleting DB","stack":"Error\n    at pu (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:94781)\n    at UJ (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1129467)\n    at https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1130142\n    at https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1503\n    at Object.next (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1608)\n    at o (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:2249)"} 
+[02/02/24, 20:22:12:889] warn: Deleting IndexedDB database 'quip' 
+[02/02/24, 20:22:12:957] info: [CHECK-UNREADS] (T02LLEZNT) Checking unreads after unread line became visible 
+[02/02/24, 20:22:12:957] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C02LLEZPV because last_read >= latest && channel is read 
+[02/02/24, 20:22:12:960] info: [API-Q] (T04CVTGJKC2) noversion-1706901732.320 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:12:961] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.910 client.appCommands is ACTIVE 
+[02/02/24, 20:22:12:961] info: [QUIP] (T02LLEZNT) {"type":"indexeddb_event","timestamp_ms":1706901732961,"db_type":2,"description":"Deleting DB","stack":"Error\n    at pu (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:94781)\n    at UJ (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1129467)\n    at https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1130142\n    at https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1503\n    at Object.next (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1608)\n    at o (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:2249)"} 
+[02/02/24, 20:22:12:961] warn: Deleting IndexedDB database 'metrics' 
+[02/02/24, 20:22:12:962] info: [UFM-MEMBERS] (T04CVTGJKC2) received U0519ARKF1N,U0557U4AH2S,U055KUJ1KFB,U0557U4RLLE,U05575ME29H,USLACKBOT,U04CVQPUM6F,U055X0A2JKS,U0598V7UMA6,U054ET1JRAQ,U04CSV2H3JR,U04CU6HUJNR (1) 
+[02/02/24, 20:22:12:965] info: [QUIP] (T02LLEZNT) {"type":"indexeddb_event","timestamp_ms":1706901732964,"db_type":3,"description":"Deleting DB","stack":"Error\n    at pu (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:94781)\n    at UJ (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1129467)\n    at https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1130142\n    at https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1503\n    at Object.next (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1608)\n    at o (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:2249)"} 
+[02/02/24, 20:22:12:965] warn: Deleting IndexedDB database 'local-storage' 
+[02/02/24, 20:22:12:965] info: [QUIP] (T02LLEZNT) {"type":"indexeddb_event","timestamp_ms":1706901732965,"db_type":4,"description":"Deleting DB","stack":"Error\n    at pu (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:94781)\n    at UJ (https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1129467)\n    at https://a.slack-edge.com/canvas_blob/1eRSbEVdqJwKsdam22b28Q:2:1130142\n    at https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1503\n    at Object.next (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:1608)\n    at o (https://a.slack-edge.com/canvas_blob/NPWoBL0rTiiejK3oVMCJBg-ancillary:2:2249)"} 
+[02/02/24, 20:22:12:966] warn: Deleting IndexedDB database 'canvas' 
+[02/02/24, 20:22:12:988] info: [API-Q] (T02LLEZNT) 40c9db46-1706901732.811 conversations.genericInfo is RESOLVED 
+[02/02/24, 20:22:13:056] info: [API-Q] (T04CVTGJKC2) noversion-1706901733.055 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:13:056] info: [API-Q] (T04CVTGJKC2) noversion-1706901733.055 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:13:128] info: [API-Q] (T02LLEZNT) noversion-1706901733.128 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:13:129] info: [API-Q] (T02LLEZNT) noversion-1706901733.128 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:13:129] info: [API-Q] (T02LLEZNT) noversion-1706901733.128 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:13:203] info: [RTM-EVENT-METRICS] Sending metric report for id: T02LLEZNT 
+[02/02/24, 20:22:13:204] info: [RTM-EVENT-METRICS] T02LLEZNT total dispatch event count: 3 
+[02/02/24, 20:22:13:206] info: [RTM-EVENT-METRICS] T02LLEZNT total incoming event count: 2 
+[02/02/24, 20:22:13:208] info: [RTM-EVENT-METRICS] Metrics collection sampling has been reset for id: T02LLEZNT 
+[02/02/24, 20:22:13:266] info: [API-Q] (T02LLEZNT) noversion-1706901733.128 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:13:292] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.910 client.appCommands is RESOLVED 
+[02/02/24, 20:22:13:292] info: [API-Q] (T04CVTGJKC2) noversion-1706901733.055 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:13:347] info: [API-Q] (T04CVTGJKC2) noversion-1706901733.055 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:13:348] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.911 files.list is ACTIVE 
+[02/02/24, 20:22:13:401] info: Store: EXTEND_MENU T02LLEZNT: menucategory-file,menucategory-view,menucategory-edit,menucategory-history,menucategory-help 
+[02/02/24, 20:22:13:524] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.911 files.list is RESOLVED 
+[02/02/24, 20:22:13:524] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.912 links.getDomains is ACTIVE 
+[02/02/24, 20:22:13:666] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.912 links.getDomains is RESOLVED 
+[02/02/24, 20:22:13:666] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.980 drafts.list is ACTIVE 
+[02/02/24, 20:22:13:805] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.980 drafts.list is RESOLVED 
+[02/02/24, 20:22:13:806] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.980 workflows.triggers.listRecentlyRunForUser is ACTIVE 
+[02/02/24, 20:22:13:806] info: [DRAFTS] (T04CVTGJKC2) No active drafts 
+[02/02/24, 20:22:13:806] info: [DRAFTS] (T04CVTGJKC2) Successfully fetched all active and inactive drafts ✨ 
+[02/02/24, 20:22:13:964] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.980 workflows.triggers.listRecentlyRunForUser is RESOLVED 
+[02/02/24, 20:22:13:964] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 megaphone.notifications.list is ACTIVE 
+[02/02/24, 20:22:14:173] info: [API-Q] (T02LLEZNT) noversion-1706901734.173 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:14:173] info: [API-Q] (T02LLEZNT) noversion-1706901734.173 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:14:173] info: [API-Q] (T02LLEZNT) noversion-1706901734.173 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:14:222] info: [RTM-EVENT-METRICS] Completed metrics aggregation {"traceId":"0d027635fd5095c9130ba375435db7e8"} 
+[02/02/24, 20:22:14:256] info: [API-Q] (T02LLEZNT) noversion-1706901734.173 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:14:616] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 megaphone.notifications.list is RESOLVED 
+[02/02/24, 20:22:14:616] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 megaphone.notifications.list is ACTIVE 
+[02/02/24, 20:22:14:877] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.981 megaphone.notifications.list is RESOLVED 
+[02/02/24, 20:22:14:878] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.982 calendar.getInstalledCalendars is ACTIVE 
+[02/02/24, 20:22:15:039] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.982 calendar.getInstalledCalendars is RESOLVED 
+[02/02/24, 20:22:15:039] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.985 users.prefs.set is ACTIVE 
+[02/02/24, 20:22:15:041] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901735.040 calendar.user.info called with reason: calendar-get-user-info 
+[02/02/24, 20:22:15:041] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901735.040 calendar.user.info is ENQUEUED 
+[02/02/24, 20:22:15:207] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901731.985 users.prefs.set is RESOLVED 
+[02/02/24, 20:22:15:208] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.436 users.customStatus.list is ACTIVE 
+[02/02/24, 20:22:15:350] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.436 users.customStatus.list is RESOLVED 
+[02/02/24, 20:22:15:350] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.437 client.counts is ACTIVE 
+[02/02/24, 20:22:15:549] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.437 client.counts is RESOLVED 
+[02/02/24, 20:22:15:549] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.439 users.prefs.set is ACTIVE 
+[02/02/24, 20:22:15:551] info: [COUNTS] (T04CVTGJKC2) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[02/02/24, 20:22:15:553] info: [COUNTS] (T04CVTGJKC2) Threads has_unreads:false mention_count:0 
+[02/02/24, 20:22:15:553] info: [COUNTS] (T04CVTGJKC2) Completed counts processing 
+[02/02/24, 20:22:15:554] info: [API-Q] (T04CVTGJKC2) noversion-1706901735.554 Flannel channels/info called with reason: flannel-call:channels/info 
+[02/02/24, 20:22:15:554] info: [API-Q] (T04CVTGJKC2) noversion-1706901735.554 Flannel channels/info is ENQUEUED 
+[02/02/24, 20:22:15:833] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901732.439 users.prefs.set is RESOLVED 
+[02/02/24, 20:22:15:833] info: [API-Q] (T04CVTGJKC2) noversion-1706901735.554 Flannel channels/info is ACTIVE 
+[02/02/24, 20:22:15:861] info: [API-Q] (T04CVTGJKC2) noversion-1706901735.554 Flannel channels/info is RESOLVED 
+[02/02/24, 20:22:15:861] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901735.040 calendar.user.info is ACTIVE 
+[02/02/24, 20:22:15:862] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901735.862 conversations.genericInfo called with reason: fallback:fetchAndUpsertChannelsById 
+[02/02/24, 20:22:15:863] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901735.862 conversations.genericInfo is ENQUEUED 
+[02/02/24, 20:22:16:021] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901735.040 calendar.user.info is RESOLVED 
+[02/02/24, 20:22:16:022] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901735.862 conversations.genericInfo is ACTIVE 
+[02/02/24, 20:22:16:181] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901735.862 conversations.genericInfo is RESOLVED 
+[02/02/24, 20:22:25:591] info: [API-Q] (T04CVTGJKC2) noversion-1706901745.589 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:22:25:591] info: [API-Q] (T04CVTGJKC2) noversion-1706901745.589 Flannel users/info is ENQUEUED 
+[02/02/24, 20:22:25:592] info: [API-Q] (T04CVTGJKC2) noversion-1706901745.589 Flannel users/info is ACTIVE 
+[02/02/24, 20:22:25:624] info: [API-Q] (T04CVTGJKC2) noversion-1706901745.589 Flannel users/info is RESOLVED 
+[02/02/24, 20:22:27:910] info: Breadcrumb: ui.click: div.c-banner__text > a.c-link  
+[02/02/24, 20:22:27:939] info: [API-Q] (T02LLEZNT) 40c9db46-1706901747.937 megaphone.setNotificationAsSeen called with reason: record-notification-event 
+[02/02/24, 20:22:27:939] info: [API-Q] (T02LLEZNT) 40c9db46-1706901747.937 megaphone.setNotificationAsSeen is ENQUEUED 
+[02/02/24, 20:22:27:942] info: [API-Q] (T02LLEZNT) 40c9db46-1706901747.937 megaphone.setNotificationAsSeen is ACTIVE 
+[02/02/24, 20:22:28:146] info: [API-Q] (T02LLEZNT) 40c9db46-1706901747.937 megaphone.setNotificationAsSeen is RESOLVED 
+[02/02/24, 20:22:28:240] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://meisterlabs.slack.com/web/open/account/settings/2fa_choose",
+  "status_code": 200
+} 
+[02/02/24, 20:22:28:244] info: Opening authenticated Slack url in browser https://meisterlabs.slack.com/z-browser-2700509775-6600604764880-a7e95b4d606e206940e1e2f7fd280ec9eff347768b96231f6b503c7c52f03d98?redir=account%252Fsettings%252F2fa_choose&session=6571181899302 
+[02/02/24, 20:22:31:453] info: [API-Q] (T02LLEZNT) 40c9db46-1706901751.453 saved.list called with reason: saved-api/savedList 
+[02/02/24, 20:22:31:453] info: [API-Q] (T02LLEZNT) 40c9db46-1706901751.453 saved.list is ENQUEUED 
+[02/02/24, 20:22:31:456] info: [API-Q] (T02LLEZNT) 40c9db46-1706901751.453 saved.list is ACTIVE 
+[02/02/24, 20:22:31:459] info: [API-Q] (T02LLEZNT) 40c9db46-1706901751.459 saved.list called with reason: saved-api/savedList 
+[02/02/24, 20:22:31:459] info: [API-Q] (T02LLEZNT) 40c9db46-1706901751.459 saved.list is ENQUEUED 
+[02/02/24, 20:22:31:460] info: [API-Q] (T02LLEZNT) 40c9db46-1706901751.459 saved.list is ACTIVE 
+[02/02/24, 20:22:31:725] info: [API-Q] (T02LLEZNT) 40c9db46-1706901751.453 saved.list is RESOLVED 
+[02/02/24, 20:22:31:725] info: [API-Q] (T02LLEZNT) 40c9db46-1706901751.459 saved.list is RESOLVED 
+[02/02/24, 20:22:32:186] info: [UFM-MESSAGES] (T02LLEZNT) requesting D042JLZ6GR4-1706627937.935899 (1) 
+[02/02/24, 20:22:32:187] info: [API-Q] (T02LLEZNT) 40c9db46-1706901752.186 messages.list called with reason: messages-ufm 
+[02/02/24, 20:22:32:187] info: [API-Q] (T02LLEZNT) 40c9db46-1706901752.186 messages.list is ENQUEUED 
+[02/02/24, 20:22:32:187] info: [API-Q] (T02LLEZNT) 40c9db46-1706901752.186 messages.list is ACTIVE 
+[02/02/24, 20:22:32:533] info: [API-Q] (T02LLEZNT) 40c9db46-1706901752.186 messages.list is RESOLVED 
+[02/02/24, 20:22:32:537] info: [UFM-MESSAGES] (T02LLEZNT) received D042JLZ6GR4-1706627937.935899 (1) 
+[02/02/24, 20:22:36:097] info: Breadcrumb: ui.click: span.c-base_icon__width_only_container > img.c-base_icon.c-base_icon--image  
+[02/02/24, 20:22:39:037] info: Breadcrumb: ui.click: div.c-menu_item__label  
+[02/02/24, 20:22:39:592] info: getNotificationWarnings: currently available media devices {
+  "devices": [
+    {
+      "deviceId": "default",
+      "kind": "audioinput",
+      "label": "Default",
+      "groupId": "e6cfaac8afeda76d1ab1a4fb8909bd669c6dfe32b4278771d9c1547ef34e476a"
+    },
+    {
+      "deviceId": "429d666ff799a76ac6556a22a69cdbc4cccb9ddd5eaa50da2241bdc070f53b87",
+      "kind": "audioinput",
+      "label": "Tiger Lake-LP Smart Sound Technology Audio Controller Digital Microphone",
+      "groupId": "cff2810b5591599330620d4859cc6d510acc134a1f5c599d799bb06968bec0fd"
+    },
+    {
+      "deviceId": "6c9aeb46ed441ec9e6f268a90ff76e047c5d716a16e4b4b6d4f66ddb11d6a388",
+      "kind": "videoinput",
+      "label": "Integrated Camera (13d3:5411)",
+      "groupId": "03e0316323699b0ff9992b0e73826855512e52d063fab6942eaae205dc1d33bf"
+    },
+    {
+      "deviceId": "default",
+      "kind": "audiooutput",
+      "label": "Default",
+      "groupId": "default"
+    },
+    {
+      "deviceId": "eb36222b8d52e20ec77bee9e2cb9103db984055e5c590abd36d63fd48e48ebfb",
+      "kind": "audiooutput",
+      "label": "Tiger Lake-LP Smart Sound Technology Audio Controller HDMI / DisplayPort 3 Output",
+      "groupId": "0780c872e688409f74cfa502341f625de7d1bf3595810009c00ca21557561745"
+    },
+    {
+      "deviceId": "8d139eb5ef8c33d6a7ed8fdba5232cd13e3084d338beb5fc8cc8807ad34edc81",
+      "kind": "audiooutput",
+      "label": "Tiger Lake-LP Smart Sound Technology Audio Controller HDMI / DisplayPort 2 Output",
+      "groupId": "d2031685d439c4343241fe74154e1b839e505119bc26169c9ad8d4555dac8dda"
+    },
+    {
+      "deviceId": "29db93a3812d33385674bd17be713f4d8d058d296e73590d21ce7e209e01e5e1",
+      "kind": "audiooutput",
+      "label": "Tiger Lake-LP Smart Sound Technology Audio Controller HDMI / DisplayPort 1 Output",
+      "groupId": "2020d2c01f65bf594d662293851b439ca1a63e36c4a439f73d617d4cc7f0af4a"
+    },
+    {
+      "deviceId": "698a4be5bebf3b275762d226cd4ba11fc62fb67c5ae167dfa5441c7e34da2870",
+      "kind": "audiooutput",
+      "label": "Tiger Lake-LP Smart Sound Technology Audio Controller Speaker + Headphones",
+      "groupId": "cff2810b5591599330620d4859cc6d510acc134a1f5c599d799bb06968bec0fd"
+    }
+  ]
+} 
+[02/02/24, 20:22:41:964] info: Breadcrumb: ui.click: button#themes.c-button-unstyled.c-tabs__tab.js-tab.c-tabs__tab--full_width[type="button"]  
+[02/02/24, 20:22:44:749] info: Breadcrumb: ui.click: input.c-input_radio.themeRadio__+zxJL[type="radio"][name="theme-mode-radio"]  
+[02/02/24, 20:22:44:890] info: Store: UPDATE_SETTINGS {
+  "userTheme": "dark"
+} 
+[02/02/24, 20:22:44:892] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["theme"] 
+[02/02/24, 20:22:44:894] info: [DESKTOP-MIDDLEWARE] (T04CVTGJKC2) Forwarding redux payload to desktop ["theme"] 
+[02/02/24, 20:22:44:894] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[02/02/24, 20:22:44:976] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [theme] 
+[02/02/24, 20:22:44:977] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04CVTGJKC2) Changed keys [theme] 
+[02/02/24, 20:22:47:592] info: Breadcrumb: ui.click: svg > path  
+[02/02/24, 20:22:53:460] info: Breadcrumb: ui.click: div.p-channel_sidebar__channel.p-channel_sidebar__channel--unread  
+[02/02/24, 20:22:53:605] info: [ACTION:CHANNEL-SIDEBAR] Selected C05K6TRG4N7 
+[02/02/24, 20:22:53:607] info: [CHANNEL-SIDEBAR] (T02LLEZNT) onItemSelect C05K6TRG4N7 
+[02/02/24, 20:22:53:610] info: [APPLY-DETAIL-VIEW] ViewSet with detail view applied {"viewSet":{"primary":{"id":"C05K6TRG4N7","viewType":"Channel"}}} 
+[02/02/24, 20:22:53:611] info: [APPLY-DETAIL-VIEW] ViewSet with channel canvas applied {"viewSet":{"primary":{"id":"C05K6TRG4N7","viewType":"Channel"}}} 
+[02/02/24, 20:22:53:614] info: [NAVIGATE-IN-MAIN-WIND] Starting a new navigation event {"id":"C05K6TRG4N7","viewType":"Channel"} 
+[02/02/24, 20:22:53:619] info: [APPLY-DETAIL-VIEW] ViewSet with detail view applied {"viewSet":{"primary":{"id":"C05K6TRG4N7","viewType":"Channel"}}} 
+[02/02/24, 20:22:53:619] info: [APPLY-DETAIL-VIEW] ViewSet with channel canvas applied {"viewSet":{"primary":{"id":"C05K6TRG4N7","viewType":"Channel"}}} 
+[02/02/24, 20:22:53:620] info: [NAVIGATE-IN-MAIN-WIND] Applying changes to the primary container {"viewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05K6TRG4N7","viewType":"Channel"}}} 
+[02/02/24, 20:22:53:621] info: [NAVIGATION-MIDDLEWARE] Starting a new navigation middleware execution {"nextViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05K6TRG4N7","viewType":"Channel"}},"middlewareCount":6} 
+[02/02/24, 20:22:53:770] info: [NAVIGATION-MIDDLEWARE] Async action execution is complete for a view {"nextView":{"id":"ChannelList","viewType":"ChannelList"},"results":[["UserIdToDMIdMiddleware",false],["AttemptToStopEditingInChannel",false],["PreventVideoRecorderModalClose",false],["OpenConversationWithIds",false],["EnsureChannel",false],["EnsureAppViewType",false]],"shouldTerminateNavigation":false,"executionTime":147.39999999990687} 
+[02/02/24, 20:22:53:770] info: [NAVIGATION-MIDDLEWARE] Finish middleware execution for sidebar container {"maybeTransformedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05K6TRG4N7","viewType":"Channel"}},"terminateNavigation":false,"isViewTransformed":false,"iterationCount":0,"executionTime":149.10000000009313} 
+[02/02/24, 20:22:53:772] info: [NAVIGATION-MIDDLEWARE] Async action execution is complete for a view {"nextView":{"id":"C05K6TRG4N7","viewType":"Channel"},"results":[["UserIdToDMIdMiddleware",false],["AttemptToStopEditingInChannel",false],["PreventVideoRecorderModalClose",false],["OpenConversationWithIds",false],["EnsureChannel",false],["EnsureAppViewType",false]],"shouldTerminateNavigation":false,"executionTime":1.1999999997206032} 
+[02/02/24, 20:22:53:772] info: [NAVIGATION-MIDDLEWARE] Finish middleware execution for primary container {"maybeTransformedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05K6TRG4N7","viewType":"Channel"}},"terminateNavigation":false,"isViewTransformed":false,"iterationCount":0,"executionTime":1.599999999627471} 
+[02/02/24, 20:22:53:772] info: [NAVIGATION-MIDDLEWARE] Navigation middleware execution is complete {"maybeUpdatedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05K6TRG4N7","viewType":"Channel"}},"terminateNavigation":false,"executionTime":151.60000000009313} 
+[02/02/24, 20:22:53:785] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Starting navigation listeners for triggerType NAVIGATION 
+[02/02/24, 20:22:53:796] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Navigation listeners complete without errors 
+[02/02/24, 20:22:53:796] info: [NAVIGATE-IN-MAIN-WIND]  Navigation thunk execution complete {"id":"C05K6TRG4N7","viewType":"Channel"} 
+[02/02/24, 20:22:53:972] info: [MESSAGE-LIST] (T02LLEZNT) getScrollmark reason:channel_change channelId:C02LLEZPV at end 
+[02/02/24, 20:22:53:983] info: [MESSAGE-LIST] (T02LLEZNT) Switching channels: C05K6TRG4N7 timestamps: 0 
+[02/02/24, 20:22:53:985] info: [MESSAGE-LIST] (T02LLEZNT) requestAround channelId: C05K6TRG4N7 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[02/02/24, 20:22:53:985] info: [HISTORY-FETCH] (T02LLEZNT) Fetching history for message pane: C05K6TRG4N7 oldest: 1701258722.326659 latest: 1701258722.326659 
+[02/02/24, 20:22:53:987] info: [API-Q] (T02LLEZNT) 40c9db46-1706901773.986 conversations.history called with reason: message-pane/requestHistory 
+[02/02/24, 20:22:53:987] info: [API-Q] (T02LLEZNT) 40c9db46-1706901773.986 conversations.history is ENQUEUED 
+[02/02/24, 20:22:53:989] info: [API-Q] (T02LLEZNT) 40c9db46-1706901773.988 conversations.history called with reason: message-pane/requestHistory 
+[02/02/24, 20:22:53:989] info: [API-Q] (T02LLEZNT) 40c9db46-1706901773.988 conversations.history is ENQUEUED 
+[02/02/24, 20:22:54:116] info: [MESSAGE-LIST] (T02LLEZNT) requestAround channelId: C05K6TRG4N7 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[02/02/24, 20:22:54:116] info: [MESSAGE-LIST] (T02LLEZNT) requestAround channelId: C05K6TRG4N7 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[02/02/24, 20:22:54:192] info: [MESSAGE-LIST] (T02LLEZNT) componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 0 
+[02/02/24, 20:22:54:232] info: [API-Q] (T02LLEZNT) 40c9db46-1706901773.986 conversations.history is ACTIVE 
+[02/02/24, 20:22:54:233] info: [API-Q] (T02LLEZNT) 40c9db46-1706901773.988 conversations.history is ACTIVE 
+[02/02/24, 20:22:54:235] info: [API-Q] (T02LLEZNT) noversion-1706901774.233 Flannel users/list called with reason: flannel-call:users/list 
+[02/02/24, 20:22:54:235] info: [API-Q] (T02LLEZNT) noversion-1706901774.233 Flannel users/list is ENQUEUED 
+[02/02/24, 20:22:54:236] info: [API-Q] (T02LLEZNT) noversion-1706901774.233 Flannel users/list is ACTIVE 
+[02/02/24, 20:22:54:256] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.254 conversations.suggestions called with reason: conversations-suggestions 
+[02/02/24, 20:22:54:256] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.254 conversations.suggestions is ENQUEUED 
+[02/02/24, 20:22:54:257] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.254 conversations.suggestions is ACTIVE 
+[02/02/24, 20:22:54:259] info: [API-Q] (T02LLEZNT) noversion-1706901774.258 Flannel users/counts called with reason: flannel-call:users/counts 
+[02/02/24, 20:22:54:259] info: [API-Q] (T02LLEZNT) noversion-1706901774.258 Flannel users/counts is ENQUEUED 
+[02/02/24, 20:22:54:260] info: [API-Q] (T02LLEZNT) noversion-1706901774.258 Flannel users/counts is ACTIVE 
+[02/02/24, 20:22:54:262] info: [UFM] (T02LLEZNT) requesting C05K6TRG4N7 (1) 
+[02/02/24, 20:22:54:262] info: [UFM] (T02LLEZNT) received C05K6TRG4N7 (1) 
+[02/02/24, 20:22:54:270] info: [UFM] (T02LLEZNT) requesting C05K6TRG4N7 (1) 
+[02/02/24, 20:22:54:271] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.270 bookmarks.list called with reason: bookmarks-store/conditional-fetching 
+[02/02/24, 20:22:54:271] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.270 bookmarks.list is ENQUEUED 
+[02/02/24, 20:22:54:272] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.270 bookmarks.list is ACTIVE 
+[02/02/24, 20:22:54:274] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.273 conversations.listPrefs called with reason: client_redux_store 
+[02/02/24, 20:22:54:274] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.273 conversations.listPrefs is ENQUEUED 
+[02/02/24, 20:22:54:275] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.273 conversations.listPrefs is ACTIVE 
+[02/02/24, 20:22:54:317] info: [API-Q] (T02LLEZNT) noversion-1706901774.258 Flannel users/counts is RESOLVED 
+[02/02/24, 20:22:54:320] info: [API-Q] (T02LLEZNT) noversion-1706901774.233 Flannel users/list is RESOLVED 
+[02/02/24, 20:22:54:417] info: [API-Q] (T02LLEZNT) 40c9db46-1706901773.988 conversations.history is RESOLVED 
+[02/02/24, 20:22:54:419] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.254 conversations.suggestions is RESOLVED 
+[02/02/24, 20:22:54:428] info: [PLATFORM-CHANNEL-ACTI] (T02LLEZNT) setting count for channel C05K6TRG4N7 to 0, and marking channel as stale. 
+[02/02/24, 20:22:54:432] info: [API-Q] (T02LLEZNT) 40c9db46-1706901773.986 conversations.history is RESOLVED 
+[02/02/24, 20:22:54:477] info: [PLATFORM-CHANNEL-ACTI] (T02LLEZNT) Not updating count for channel C05K6TRG4N7, as count was already set to 0 
+[02/02/24, 20:22:54:485] info: [PINS] (T02LLEZNT) Pins count updated for channel C05K6TRG4N7: 0 
+[02/02/24, 20:22:54:496] info: [COUNTS] (T02LLEZNT) Updated unread_cnt for C05K6TRG4N7: 4 
+[02/02/24, 20:22:54:507] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C05K6TRG4N7 as markImmediately is false, clearing ghost last_read 
+[02/02/24, 20:22:54:508] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C05K6TRG4N7 because unread line is not visible 
+[02/02/24, 20:22:54:508] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C05K6TRG4N7 because last_read < latest 
+[02/02/24, 20:22:54:509] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C05K6TRG4N7 because channel is not read or last message is not from self; isChannelRead: false; isOwnMessage: false 
+[02/02/24, 20:22:54:510] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.273 conversations.listPrefs is RESOLVED 
+[02/02/24, 20:22:54:512] info: [API-Q] (T02LLEZNT) 40c9db46-1706901774.270 bookmarks.list is RESOLVED 
+[02/02/24, 20:22:54:581] info: [MESSAGE-LIST] (T02LLEZNT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 17 
+[02/02/24, 20:22:54:941] info: [CHECK-UNREADS] (T02LLEZNT) unreadLineVisible updated in main window container primary: false -> true 
+[02/02/24, 20:22:55:453] info: [API-Q] (T02LLEZNT) 40c9db46-1706901775.451 conversations.canCreateSharedInvite called with reason: channel-invite-modal-can-share-channel 
+[02/02/24, 20:22:55:453] info: [API-Q] (T02LLEZNT) 40c9db46-1706901775.451 conversations.canCreateSharedInvite is ENQUEUED 
+[02/02/24, 20:22:55:503] warn: AutoTrace removed with reason: Stopped AutoTrace for key: navigation-T02LLEZNT-to-Channel:C05K6TRG4N7 
+[02/02/24, 20:22:55:505] info: [API-Q] (T02LLEZNT) 40c9db46-1706901775.451 conversations.canCreateSharedInvite is ACTIVE 
+[02/02/24, 20:22:55:553] info: [UFM] (T02LLEZNT) received C05K6TRG4N7 (1) 
+[02/02/24, 20:22:55:564] info: [UFM-FLANNELEMOJI] (T02LLEZNT) requesting 2 objects (1) 
+[02/02/24, 20:22:55:567] info: [API-Q] (T02LLEZNT) noversion-1706901775.565 Flannel emojis/info called with reason: flannel-call:emojis/info 
+[02/02/24, 20:22:55:567] info: [API-Q] (T02LLEZNT) noversion-1706901775.565 Flannel emojis/info is ENQUEUED 
+[02/02/24, 20:22:55:568] info: [API-Q] (T02LLEZNT) noversion-1706901775.565 Flannel emojis/info is ACTIVE 
+[02/02/24, 20:22:55:731] info: [API-Q] (T02LLEZNT) noversion-1706901775.730 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[02/02/24, 20:22:55:732] info: [API-Q] (T02LLEZNT) noversion-1706901775.730 Flannel channels/membership is ENQUEUED 
+[02/02/24, 20:22:55:733] info: [API-Q] (T02LLEZNT) noversion-1706901775.730 Flannel channels/membership is ACTIVE 
+[02/02/24, 20:22:55:881] info: [API-Q] (T02LLEZNT) noversion-1706901775.565 Flannel emojis/info is RESOLVED 
+[02/02/24, 20:22:55:885] info: [API-Q] (T02LLEZNT) 40c9db46-1706901775.451 conversations.canCreateSharedInvite is RESOLVED 
+[02/02/24, 20:22:55:942] info: [CHECK-UNREADS] (T02LLEZNT) Checking unreads after unread line became visible 
+[02/02/24, 20:22:55:943] info: [CHECK-UNREADS] (T02LLEZNT) Marking C05K6TRG4N7 because unread line is visible 
+[02/02/24, 20:22:55:944] info: [SET-LAST-READ] (T02LLEZNT) markLastRead C05K6TRG4N7:1706869060.355259, immediate: false 
+[02/02/24, 20:22:55:946] info: [SET-LAST-READ] (T02LLEZNT) delaying C05K6TRG4N7 mark by 983.7073720663736ms 
+[02/02/24, 20:22:55:948] info: [UNREAD-COUNTS] (T02LLEZNT) Counting unreads in C05K6TRG4N7 because last_read changed to 1706869060.355259 
+[02/02/24, 20:22:55:948] info: [COUNTS] (T02LLEZNT) Updated unread_cnt for C05K6TRG4N7: 0 
+[02/02/24, 20:22:55:949] info: [COUNTS] (T02LLEZNT) Updated unread_highlight_cnt for C05K6TRG4N7: 0 
+[02/02/24, 20:22:55:953] info: [UFM-FLANNELEMOJI] (T02LLEZNT) received 2 objects (1) 
+[02/02/24, 20:22:56:011] info: [API-Q] (T02LLEZNT) noversion-1706901775.730 Flannel channels/membership is RESOLVED 
+[02/02/24, 20:22:56:045] info: [API-Q] (T02LLEZNT) noversion-1706901776.044 Flannel users/list called with reason: flannel-call:users/list 
+[02/02/24, 20:22:56:045] info: [API-Q] (T02LLEZNT) noversion-1706901776.044 Flannel users/list is ENQUEUED 
+[02/02/24, 20:22:56:045] info: [API-Q] (T02LLEZNT) noversion-1706901776.044 Flannel users/list is ACTIVE 
+[02/02/24, 20:22:56:077] info: [API-Q] (T02LLEZNT) noversion-1706901776.044 Flannel users/list is RESOLVED 
+[02/02/24, 20:22:56:929] info: [SET-LAST-READ] (T02LLEZNT) delay resolved, marking C05K6TRG4N7 with API 
+[02/02/24, 20:22:56:930] info: [API-Q] (T02LLEZNT) 40c9db46-1706901776.929 conversations.mark called with reason: viewed 
+[02/02/24, 20:22:56:930] info: [API-Q] (T02LLEZNT) 40c9db46-1706901776.929 conversations.mark is ENQUEUED 
+[02/02/24, 20:22:56:930] info: [API-Q] (T02LLEZNT) 40c9db46-1706901776.929 conversations.mark is ACTIVE 
+[02/02/24, 20:22:57:198] info: [API-Q] (T02LLEZNT) 40c9db46-1706901776.929 conversations.mark is RESOLVED 
+[02/02/24, 20:22:57:207] info: [RTM-BADGE-COUNTS-UPDA] (T02LLEZNT) badge_counts_updated 
+[02/02/24, 20:22:57:210] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["unreads"] 
+[02/02/24, 20:22:57:216] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [unreads] 
+[02/02/24, 20:23:07:517] info: Breadcrumb: ui.click: div.p-channel_sidebar__channel.p-channel_sidebar__channel--unread  
+[02/02/24, 20:23:07:542] info: [ACTION:CHANNEL-SIDEBAR] Selected C05KWSJPCL8 
+[02/02/24, 20:23:07:544] info: [CHANNEL-SIDEBAR] (T02LLEZNT) onItemSelect C05KWSJPCL8 
+[02/02/24, 20:23:07:544] info: [APPLY-DETAIL-VIEW] ViewSet with detail view applied {"viewSet":{"primary":{"id":"C05KWSJPCL8","viewType":"Channel"}}} 
+[02/02/24, 20:23:07:545] info: [APPLY-DETAIL-VIEW] ViewSet with channel canvas applied {"viewSet":{"primary":{"id":"C05KWSJPCL8","viewType":"Channel"}}} 
+[02/02/24, 20:23:07:546] info: [NAVIGATE-IN-MAIN-WIND] Starting a new navigation event {"id":"C05KWSJPCL8","viewType":"Channel"} 
+[02/02/24, 20:23:07:549] info: [APPLY-DETAIL-VIEW] ViewSet with detail view applied {"viewSet":{"primary":{"id":"C05KWSJPCL8","viewType":"Channel"}}} 
+[02/02/24, 20:23:07:549] info: [APPLY-DETAIL-VIEW] ViewSet with channel canvas applied {"viewSet":{"primary":{"id":"C05KWSJPCL8","viewType":"Channel"}}} 
+[02/02/24, 20:23:07:549] info: [NAVIGATE-IN-MAIN-WIND] Applying changes to the primary container {"viewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05KWSJPCL8","viewType":"Channel"}}} 
+[02/02/24, 20:23:07:550] info: [NAVIGATION-MIDDLEWARE] Starting a new navigation middleware execution {"nextViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05KWSJPCL8","viewType":"Channel"}},"middlewareCount":6} 
+[02/02/24, 20:23:07:558] info: [NAVIGATION-MIDDLEWARE] Async action execution is complete for a view {"nextView":{"id":"ChannelList","viewType":"ChannelList"},"results":[["UserIdToDMIdMiddleware",false],["AttemptToStopEditingInChannel",false],["PreventVideoRecorderModalClose",false],["OpenConversationWithIds",false],["EnsureChannel",false],["EnsureAppViewType",false]],"shouldTerminateNavigation":false,"executionTime":7.5} 
+[02/02/24, 20:23:07:558] info: [NAVIGATION-MIDDLEWARE] Finish middleware execution for sidebar container {"maybeTransformedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05KWSJPCL8","viewType":"Channel"}},"terminateNavigation":false,"isViewTransformed":false,"iterationCount":0,"executionTime":8} 
+[02/02/24, 20:23:07:558] info: [NAVIGATION-MIDDLEWARE] Async action execution is complete for a view {"nextView":{"id":"C05KWSJPCL8","viewType":"Channel"},"results":[["UserIdToDMIdMiddleware",false],["AttemptToStopEditingInChannel",false],["PreventVideoRecorderModalClose",false],["OpenConversationWithIds",false],["EnsureChannel",false],["EnsureAppViewType",false]],"shouldTerminateNavigation":false,"executionTime":0.39999999990686774} 
+[02/02/24, 20:23:07:559] info: [NAVIGATION-MIDDLEWARE] Finish middleware execution for primary container {"maybeTransformedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05KWSJPCL8","viewType":"Channel"}},"terminateNavigation":false,"isViewTransformed":false,"iterationCount":0,"executionTime":0.8000000002793968} 
+[02/02/24, 20:23:07:559] info: [NAVIGATION-MIDDLEWARE] Navigation middleware execution is complete {"maybeUpdatedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05KWSJPCL8","viewType":"Channel"}},"terminateNavigation":false,"executionTime":9.300000000279397} 
+[02/02/24, 20:23:07:565] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Starting navigation listeners for triggerType NAVIGATION 
+[02/02/24, 20:23:07:571] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Navigation listeners complete without errors 
+[02/02/24, 20:23:07:572] info: [NAVIGATE-IN-MAIN-WIND]  Navigation thunk execution complete {"id":"C05KWSJPCL8","viewType":"Channel"} 
+[02/02/24, 20:23:07:783] info: [MESSAGE-LIST] (T02LLEZNT) getScrollmark reason:channel_change channelId:C05K6TRG4N7 at end 
+[02/02/24, 20:23:07:790] info: [MESSAGE-LIST] (T02LLEZNT) Switching channels: C05KWSJPCL8 timestamps: 0 
+[02/02/24, 20:23:07:791] info: [MESSAGE-LIST] (T02LLEZNT) requestAround channelId: C05KWSJPCL8 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[02/02/24, 20:23:07:791] info: [HISTORY-FETCH] (T02LLEZNT) Fetching history for message pane: C05KWSJPCL8 oldest: 1701256222.880429 latest: 1701256222.880429 
+[02/02/24, 20:23:07:792] info: [API-Q] (T02LLEZNT) 40c9db46-1706901787.791 conversations.history called with reason: message-pane/requestHistory 
+[02/02/24, 20:23:07:793] info: [API-Q] (T02LLEZNT) 40c9db46-1706901787.791 conversations.history is ENQUEUED 
+[02/02/24, 20:23:07:794] info: [API-Q] (T02LLEZNT) 40c9db46-1706901787.793 conversations.history called with reason: message-pane/requestHistory 
+[02/02/24, 20:23:07:795] info: [API-Q] (T02LLEZNT) 40c9db46-1706901787.793 conversations.history is ENQUEUED 
+[02/02/24, 20:23:08:082] info: [MESSAGE-LIST] (T02LLEZNT) requestAround channelId: C05KWSJPCL8 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[02/02/24, 20:23:08:082] info: [MESSAGE-LIST] (T02LLEZNT) requestAround channelId: C05KWSJPCL8 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[02/02/24, 20:23:08:150] info: [MESSAGE-LIST] (T02LLEZNT) componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 0 
+[02/02/24, 20:23:08:197] info: [API-Q] (T02LLEZNT) 40c9db46-1706901787.791 conversations.history is ACTIVE 
+[02/02/24, 20:23:08:198] info: [API-Q] (T02LLEZNT) 40c9db46-1706901787.793 conversations.history is ACTIVE 
+[02/02/24, 20:23:08:199] info: [API-Q] (T02LLEZNT) noversion-1706901788.198 Flannel users/list called with reason: flannel-call:users/list 
+[02/02/24, 20:23:08:200] info: [API-Q] (T02LLEZNT) noversion-1706901788.198 Flannel users/list is ENQUEUED 
+[02/02/24, 20:23:08:201] info: [API-Q] (T02LLEZNT) noversion-1706901788.198 Flannel users/list is ACTIVE 
+[02/02/24, 20:23:08:217] info: [API-Q] (T02LLEZNT) noversion-1706901788.216 Flannel users/counts called with reason: flannel-call:users/counts 
+[02/02/24, 20:23:08:217] info: [API-Q] (T02LLEZNT) noversion-1706901788.216 Flannel users/counts is ENQUEUED 
+[02/02/24, 20:23:08:218] info: [API-Q] (T02LLEZNT) noversion-1706901788.216 Flannel users/counts is ACTIVE 
+[02/02/24, 20:23:08:218] info: [UFM] (T02LLEZNT) requesting C05KWSJPCL8 (1) 
+[02/02/24, 20:23:08:219] info: [UFM] (T02LLEZNT) received C05KWSJPCL8 (1) 
+[02/02/24, 20:23:08:227] info: [UFM] (T02LLEZNT) requesting C05KWSJPCL8 (1) 
+[02/02/24, 20:23:08:228] info: [API-Q] (T02LLEZNT) 40c9db46-1706901788.227 bookmarks.list called with reason: bookmarks-store/conditional-fetching 
+[02/02/24, 20:23:08:228] info: [API-Q] (T02LLEZNT) 40c9db46-1706901788.227 bookmarks.list is ENQUEUED 
+[02/02/24, 20:23:08:229] info: [API-Q] (T02LLEZNT) 40c9db46-1706901788.227 bookmarks.list is ACTIVE 
+[02/02/24, 20:23:08:233] info: [API-Q] (T02LLEZNT) 40c9db46-1706901788.231 conversations.listPrefs called with reason: client_redux_store 
+[02/02/24, 20:23:08:233] info: [API-Q] (T02LLEZNT) 40c9db46-1706901788.231 conversations.listPrefs is ENQUEUED 
+[02/02/24, 20:23:08:234] info: [API-Q] (T02LLEZNT) 40c9db46-1706901788.231 conversations.listPrefs is ACTIVE 
+[02/02/24, 20:23:08:281] info: [API-Q] (T02LLEZNT) noversion-1706901788.216 Flannel users/counts is RESOLVED 
+[02/02/24, 20:23:08:282] info: [API-Q] (T02LLEZNT) noversion-1706901788.198 Flannel users/list is RESOLVED 
+[02/02/24, 20:23:08:379] info: [MEDIA-DEVICES] Successfully refreshed media device access. 
+[02/02/24, 20:23:08:390] info: [API-Q] (T02LLEZNT) 40c9db46-1706901788.227 bookmarks.list is RESOLVED 
+[02/02/24, 20:23:08:391] info: [UFM] (T02LLEZNT) received C05KWSJPCL8 (1) 
+[02/02/24, 20:23:08:399] info: [API-Q] (T02LLEZNT) 40c9db46-1706901788.231 conversations.listPrefs is RESOLVED 
+[02/02/24, 20:23:08:404] info: [API-Q] (T02LLEZNT) 40c9db46-1706901787.793 conversations.history is RESOLVED 
+[02/02/24, 20:23:08:436] info: [API-Q] (T02LLEZNT) 40c9db46-1706901787.791 conversations.history is RESOLVED 
+[02/02/24, 20:23:08:441] info: [PLATFORM-CHANNEL-ACTI] (T02LLEZNT) setting count for channel C05KWSJPCL8 to 0, and marking channel as stale. 
+[02/02/24, 20:23:08:475] info: [PLATFORM-CHANNEL-ACTI] (T02LLEZNT) Not updating count for channel C05KWSJPCL8, as count was already set to 0 
+[02/02/24, 20:23:08:480] info: [PINS] (T02LLEZNT) Pins count updated for channel C05KWSJPCL8: 0 
+[02/02/24, 20:23:08:484] info: [COUNTS] (T02LLEZNT) Updated unread_cnt for C05KWSJPCL8: 3 
+[02/02/24, 20:23:08:489] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C05KWSJPCL8 as markImmediately is false, clearing ghost last_read 
+[02/02/24, 20:23:08:490] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C05KWSJPCL8 because unread line is not visible 
+[02/02/24, 20:23:08:490] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C05KWSJPCL8 because last_read < latest 
+[02/02/24, 20:23:08:490] info: [CHECK-UNREADS] (T02LLEZNT) Not marking C05KWSJPCL8 because channel is not read or last message is not from self; isChannelRead: false; isOwnMessage: false 
+[02/02/24, 20:23:08:562] info: [MESSAGE-LIST] (T02LLEZNT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 12 
+[02/02/24, 20:23:09:000] info: [CHECK-UNREADS] (T02LLEZNT) unreadLineVisible updated in main window container primary: false -> true 
+[02/02/24, 20:23:09:012] info: [API-Q] (T02LLEZNT) 40c9db46-1706901789.011 conversations.canCreateSharedInvite called with reason: channel-invite-modal-can-share-channel 
+[02/02/24, 20:23:09:012] info: [API-Q] (T02LLEZNT) 40c9db46-1706901789.011 conversations.canCreateSharedInvite is ENQUEUED 
+[02/02/24, 20:23:09:120] warn: AutoTrace removed with reason: Stopped AutoTrace for key: navigation-T02LLEZNT-to-Channel:C05KWSJPCL8 
+[02/02/24, 20:23:09:121] info: [API-Q] (T02LLEZNT) 40c9db46-1706901789.011 conversations.canCreateSharedInvite is ACTIVE 
+[02/02/24, 20:23:09:141] info: [API-Q] (T02LLEZNT) noversion-1706901789.140 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[02/02/24, 20:23:09:142] info: [API-Q] (T02LLEZNT) noversion-1706901789.140 Flannel channels/membership is ENQUEUED 
+[02/02/24, 20:23:09:142] info: [API-Q] (T02LLEZNT) noversion-1706901789.140 Flannel channels/membership is ACTIVE 
+[02/02/24, 20:23:09:191] info: [API-Q] (T02LLEZNT) noversion-1706901789.140 Flannel channels/membership is RESOLVED 
+[02/02/24, 20:23:09:247] info: [API-Q] (T02LLEZNT) noversion-1706901789.246 Flannel users/list called with reason: flannel-call:users/list 
+[02/02/24, 20:23:09:247] info: [API-Q] (T02LLEZNT) noversion-1706901789.246 Flannel users/list is ENQUEUED 
+[02/02/24, 20:23:09:247] info: [API-Q] (T02LLEZNT) noversion-1706901789.246 Flannel users/list is ACTIVE 
+[02/02/24, 20:23:09:277] info: [API-Q] (T02LLEZNT) noversion-1706901789.246 Flannel users/list is RESOLVED 
+[02/02/24, 20:23:09:311] info: [API-Q] (T02LLEZNT) 40c9db46-1706901789.011 conversations.canCreateSharedInvite is RESOLVED 
+[02/02/24, 20:23:09:467] info: [CHECK-UNREADS] (T02LLEZNT) Checking unreads after unread line became visible 
+[02/02/24, 20:23:09:467] info: [CHECK-UNREADS] (T02LLEZNT) Marking C05KWSJPCL8 because unread line is visible 
+[02/02/24, 20:23:09:472] info: [SET-LAST-READ] (T02LLEZNT) markLastRead C05KWSJPCL8:1706867849.420139, immediate: false 
+[02/02/24, 20:23:09:475] info: [SET-LAST-READ] (T02LLEZNT) delaying C05KWSJPCL8 mark by 3754.384154279059ms 
+[02/02/24, 20:23:09:476] info: [UNREAD-COUNTS] (T02LLEZNT) Counting unreads in C05KWSJPCL8 because last_read changed to 1706867849.420139 
+[02/02/24, 20:23:09:476] info: [COUNTS] (T02LLEZNT) Updated unread_cnt for C05KWSJPCL8: 0 
+[02/02/24, 20:23:09:479] info: [COUNTS] (T02LLEZNT) Updated unread_highlight_cnt for C05KWSJPCL8: 0 
+[02/02/24, 20:23:11:651] info: [CHECK-FOR-OLD-CHANNEL] (T02LLEZNT) Within limit [external DMs]: 2 
+[02/02/24, 20:23:11:651] info: [CHECK-FOR-OLD-CHANNEL] (T02LLEZNT) Within limit [app DMs]: 4 
+[02/02/24, 20:23:11:651] info: [CHECK-FOR-OLD-CHANNEL] (T02LLEZNT) Within limit [record channels]: 0 
+[02/02/24, 20:23:12:441] info: [CHECK-FOR-OLD-CHANNEL] (T04CVTGJKC2) Missing channel section information 
+[02/02/24, 20:23:12:441] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901792.441 users.channelSections.list called with reason: conditional-fetch-manager 
+[02/02/24, 20:23:12:441] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901792.441 users.channelSections.list is ENQUEUED 
+[02/02/24, 20:23:12:442] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901792.441 users.channelSections.list is ACTIVE 
+[02/02/24, 20:23:12:718] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901792.441 users.channelSections.list is RESOLVED 
+[02/02/24, 20:23:13:229] info: [SET-LAST-READ] (T02LLEZNT) delay resolved, marking C05KWSJPCL8 with API 
+[02/02/24, 20:23:13:229] info: [API-Q] (T02LLEZNT) 40c9db46-1706901793.229 conversations.mark called with reason: viewed 
+[02/02/24, 20:23:13:230] info: [API-Q] (T02LLEZNT) 40c9db46-1706901793.229 conversations.mark is ENQUEUED 
+[02/02/24, 20:23:13:230] info: [API-Q] (T02LLEZNT) 40c9db46-1706901793.229 conversations.mark is ACTIVE 
+[02/02/24, 20:23:13:513] info: [API-Q] (T02LLEZNT) 40c9db46-1706901793.229 conversations.mark is RESOLVED 
+[02/02/24, 20:23:13:525] info: [RTM-BADGE-COUNTS-UPDA] (T02LLEZNT) badge_counts_updated 
+[02/02/24, 20:23:13:527] info: [DESKTOP-MIDDLEWARE] (T02LLEZNT) Forwarding redux payload to desktop ["unreads"] 
+[02/02/24, 20:23:13:528] info: Store: REDUX_UPDATE_FROM_WEBAPP (T02LLEZNT) Changed keys [unreads] 
+[02/02/24, 20:23:18:028] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901798.003 client.counts called with reason: client-counts-api/fetchClientCounts 
+[02/02/24, 20:23:18:028] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901798.003 client.counts is ENQUEUED 
+[02/02/24, 20:23:18:029] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901798.003 client.counts is ACTIVE 
+[02/02/24, 20:23:18:227] info: [API-Q] (T04CVTGJKC2) 40c9db46-1706901798.003 client.counts is RESOLVED 
+[02/02/24, 20:23:18:231] info: [COUNTS] (T04CVTGJKC2) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[02/02/24, 20:23:18:244] info: [COUNTS] (T04CVTGJKC2) Threads has_unreads:false mention_count:0 
+[02/02/24, 20:23:18:247] info: [COUNTS] (T04CVTGJKC2) Completed counts processing 
+[02/02/24, 20:23:21:652] info: [API-Q] (T02LLEZNT) 40c9db46-1706901801.628 client.counts called with reason: client-counts-api/fetchClientCounts 
+[02/02/24, 20:23:21:652] info: [API-Q] (T02LLEZNT) 40c9db46-1706901801.628 client.counts is ENQUEUED 
+[02/02/24, 20:23:21:653] info: [API-Q] (T02LLEZNT) 40c9db46-1706901801.628 client.counts is ACTIVE 
+[02/02/24, 20:23:21:911] info: [API-Q] (T02LLEZNT) 40c9db46-1706901801.628 client.counts is RESOLVED 
+[02/02/24, 20:23:21:920] info: [COUNTS] (T02LLEZNT) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[02/02/24, 20:23:21:935] info: [COUNTS] (T02LLEZNT) Recounted C02LLEZPV; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[02/02/24, 20:23:21:935] info: [COUNTS] (T02LLEZNT) Recounted C05K6TRG4N7; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[02/02/24, 20:23:21:935] info: [COUNTS] (T02LLEZNT) Recounted C05KWSJPCL8; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[02/02/24, 20:23:21:936] info: [COUNTS] (T02LLEZNT) Threads has_unreads:false mention_count:0 
+[02/02/24, 20:23:21:940] info: [COUNTS] (T02LLEZNT) Completed counts processing 
+[02/02/24, 20:23:23:038] info: Breadcrumb: ui.click: div.c-texty_input_unstyled.ql-container.focus > div.ql-editor.ql-blank  
+[02/02/24, 20:23:28:823] info: Breadcrumb: ui.click: div.p-channel_sidebar__channel.p-channel_sidebar__channel--unread  
+[02/02/24, 20:23:28:826] info: [ACTION:CHANNEL-SIDEBAR] Selected C05FKS9130X 
+[02/02/24, 20:23:28:827] info: [CHANNEL-SIDEBAR] (T02LLEZNT) onItemSelect C05FKS9130X 
+[02/02/24, 20:23:28:827] info: [APPLY-DETAIL-VIEW] ViewSet with detail view applied {"viewSet":{"primary":{"id":"C05FKS9130X","viewType":"Channel"}}} 
+[02/02/24, 20:23:28:827] info: [APPLY-DETAIL-VIEW] ViewSet with channel canvas applied {"viewSet":{"primary":{"id":"C05FKS9130X","viewType":"Channel"}}} 
+[02/02/24, 20:23:28:828] info: [NAVIGATE-IN-MAIN-WIND] Starting a new navigation event {"id":"C05FKS9130X","viewType":"Channel"} 
+[02/02/24, 20:23:28:831] info: [APPLY-DETAIL-VIEW] ViewSet with detail view applied {"viewSet":{"primary":{"id":"C05FKS9130X","viewType":"Channel"}}} 
+[02/02/24, 20:23:28:832] info: [APPLY-DETAIL-VIEW] ViewSet with channel canvas applied {"viewSet":{"primary":{"id":"C05FKS9130X","viewType":"Channel"}}} 
+[02/02/24, 20:23:28:832] info: [NAVIGATE-IN-MAIN-WIND] Applying changes to the primary container {"viewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel"}}} 
+[02/02/24, 20:23:28:832] info: [NAVIGATION-MIDDLEWARE] Starting a new navigation middleware execution {"nextViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel"}},"middlewareCount":6} 
+[02/02/24, 20:23:28:840] info: [NAVIGATION-MIDDLEWARE] Async action execution is complete for a view {"nextView":{"id":"ChannelList","viewType":"ChannelList"},"results":[["UserIdToDMIdMiddleware",false],["AttemptToStopEditingInChannel",false],["PreventVideoRecorderModalClose",false],["OpenConversationWithIds",false],["EnsureChannel",false],["EnsureAppViewType",false]],"shouldTerminateNavigation":false,"executionTime":7.5} 
+[02/02/24, 20:23:28:841] info: [NAVIGATION-MIDDLEWARE] Finish middleware execution for sidebar container {"maybeTransformedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel"}},"terminateNavigation":false,"isViewTransformed":false,"iterationCount":0,"executionTime":8.200000000186265} 
+[02/02/24, 20:23:28:841] info: [NAVIGATION-MIDDLEWARE] Async action execution is complete for a view {"nextView":{"id":"C05FKS9130X","viewType":"Channel"},"results":[["UserIdToDMIdMiddleware",false],["AttemptToStopEditingInChannel",false],["PreventVideoRecorderModalClose",false],["OpenConversationWithIds",false],["EnsureChannel",false],["EnsureAppViewType",false]],"shouldTerminateNavigation":false,"executionTime":0.3000000002793968} 
+[02/02/24, 20:23:28:842] info: [NAVIGATION-MIDDLEWARE] Finish middleware execution for primary container {"maybeTransformedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel"}},"terminateNavigation":false,"isViewTransformed":false,"iterationCount":0,"executionTime":0.7999999998137355} 
+[02/02/24, 20:23:28:842] info: [NAVIGATION-MIDDLEWARE] Navigation middleware execution is complete {"maybeUpdatedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel"}},"terminateNavigation":false,"executionTime":9.600000000093132} 
+[02/02/24, 20:23:28:848] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Starting navigation listeners for triggerType NAVIGATION 
+[02/02/24, 20:23:28:856] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Navigation listeners complete without errors 
+[02/02/24, 20:23:28:856] info: [NAVIGATE-IN-MAIN-WIND]  Navigation thunk execution complete {"id":"C05FKS9130X","viewType":"Channel"} 
+[02/02/24, 20:23:29:075] info: [MESSAGE-LIST] (T02LLEZNT) getScrollmark reason:channel_change channelId:C05KWSJPCL8 at end 
+[02/02/24, 20:23:29:082] info: [MESSAGE-LIST] (T02LLEZNT) Switching channels: C05FKS9130X timestamps: 0 
+[02/02/24, 20:23:29:083] info: [MESSAGE-LIST] (T02LLEZNT) requestAround channelId: C05FKS9130X isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[02/02/24, 20:23:29:083] info: [HISTORY-FETCH] (T02LLEZNT) Fetching history for message pane: C05FKS9130X oldest: 1706139574.922979 latest: 1706139574.922979 
+[02/02/24, 20:23:29:085] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.083 conversations.history called with reason: message-pane/requestHistory 
+[02/02/24, 20:23:29:085] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.083 conversations.history is ENQUEUED 
+[02/02/24, 20:23:29:086] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.085 conversations.history called with reason: message-pane/requestHistory 
+[02/02/24, 20:23:29:086] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.085 conversations.history is ENQUEUED 
+[02/02/24, 20:23:29:219] info: [MESSAGE-LIST] (T02LLEZNT) requestAround channelId: C05FKS9130X isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[02/02/24, 20:23:29:220] info: [MESSAGE-LIST] (T02LLEZNT) requestAround channelId: C05FKS9130X isLoading: false timestamps: 0 reachedStart: false reachedEnd: false 
+[02/02/24, 20:23:29:298] info: [MESSAGE-LIST] (T02LLEZNT) componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 0 
+[02/02/24, 20:23:29:338] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.083 conversations.history is ACTIVE 
+[02/02/24, 20:23:29:339] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.085 conversations.history is ACTIVE 
+[02/02/24, 20:23:29:340] info: [API-Q] (T02LLEZNT) noversion-1706901809.338 Flannel users/list called with reason: flannel-call:users/list 
+[02/02/24, 20:23:29:340] info: [API-Q] (T02LLEZNT) noversion-1706901809.338 Flannel users/list is ENQUEUED 
+[02/02/24, 20:23:29:341] info: [API-Q] (T02LLEZNT) noversion-1706901809.338 Flannel users/list is ACTIVE 
+[02/02/24, 20:23:29:359] info: [API-Q] (T02LLEZNT) noversion-1706901809.357 Flannel users/counts called with reason: flannel-call:users/counts 
+[02/02/24, 20:23:29:359] info: [API-Q] (T02LLEZNT) noversion-1706901809.357 Flannel users/counts is ENQUEUED 
+[02/02/24, 20:23:29:360] info: [API-Q] (T02LLEZNT) noversion-1706901809.357 Flannel users/counts is ACTIVE 
+[02/02/24, 20:23:29:360] info: [UFM] (T02LLEZNT) requesting C05FKS9130X (1) 
+[02/02/24, 20:23:29:361] info: [UFM] (T02LLEZNT) received C05FKS9130X (1) 
+[02/02/24, 20:23:29:367] info: [UFM] (T02LLEZNT) requesting C05FKS9130X (1) 
+[02/02/24, 20:23:29:369] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.368 bookmarks.list called with reason: bookmarks-store/conditional-fetching 
+[02/02/24, 20:23:29:369] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.368 bookmarks.list is ENQUEUED 
+[02/02/24, 20:23:29:370] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.368 bookmarks.list is ACTIVE 
+[02/02/24, 20:23:29:372] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.371 conversations.listPrefs called with reason: client_redux_store 
+[02/02/24, 20:23:29:372] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.371 conversations.listPrefs is ENQUEUED 
+[02/02/24, 20:23:29:373] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.371 conversations.listPrefs is ACTIVE 
+[02/02/24, 20:23:29:427] info: [API-Q] (T02LLEZNT) noversion-1706901809.338 Flannel users/list is RESOLVED 
+[02/02/24, 20:23:29:429] info: [API-Q] (T02LLEZNT) noversion-1706901809.357 Flannel users/counts is RESOLVED 
+[02/02/24, 20:23:29:450] info: [UFM-MEMBERS] (T02LLEZNT) requesting U019AUTANNM,U026CHDDBFV,U02MKS33BAR,U04MKSUTJGL,U03U2H77G4U,U051E9U2X8V,U02H1QYCWMN,UL15W33GV,U03RJE7C3LY (1) 
+[02/02/24, 20:23:29:451] info: [UFM-MEMBERS] (T02LLEZNT) received U019AUTANNM,U026CHDDBFV,U02MKS33BAR,U04MKSUTJGL,U03U2H77G4U,U051E9U2X8V,U02H1QYCWMN,UL15W33GV,U03RJE7C3LY (1) 
+[02/02/24, 20:23:29:501] info: [API-Q] (T02LLEZNT) noversion-1706901809.499 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:23:29:501] info: [API-Q] (T02LLEZNT) noversion-1706901809.499 Flannel users/info is ENQUEUED 
+[02/02/24, 20:23:29:502] info: [API-Q] (T02LLEZNT) noversion-1706901809.499 Flannel users/info is ACTIVE 
+[02/02/24, 20:23:29:530] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.368 bookmarks.list is RESOLVED 
+[02/02/24, 20:23:29:533] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.085 conversations.history is RESOLVED 
+[02/02/24, 20:23:29:533] info: [UFM] (T02LLEZNT) received C05FKS9130X (1) 
+[02/02/24, 20:23:29:541] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.371 conversations.listPrefs is RESOLVED 
+[02/02/24, 20:23:29:547] info: [PLATFORM-CHANNEL-ACTI] (T02LLEZNT) setting count for channel C05FKS9130X to 0, and marking channel as stale. 
+[02/02/24, 20:23:29:550] info: [API-Q] (T02LLEZNT) noversion-1706901809.499 Flannel users/info is RESOLVED 
+[02/02/24, 20:23:29:585] info: [API-Q] (T02LLEZNT) 40c9db46-1706901809.083 conversations.history is RESOLVED 
+[02/02/24, 20:23:29:663] info: [PLATFORM-CHANNEL-ACTI] (T02LLEZNT) Not updating count for channel C05FKS9130X, as count was already set to 0 
+[02/02/24, 20:23:29:669] info: [PINS] (T02LLEZNT) Pins count updated for channel C05FKS9130X: 0 
+[02/02/24, 20:23:29:673] info: [UNREAD-COUNTS] (T02LLEZNT) Short-circuiting re-count in C05FKS9130X because channel is already unread 
+[02/02/24, 20:23:29:722] info: [MESSAGE-LIST] (T02LLEZNT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 30 
+[02/02/24, 20:23:30:182] info: [CHECK-UNREADS] (T02LLEZNT) unreadLineVisible updated in main window container primary: false -> true 
+[02/02/24, 20:23:30:272] warn: AutoTrace removed with reason: Stopped AutoTrace for key: navigation-T02LLEZNT-to-Channel:C05FKS9130X 
+[02/02/24, 20:23:30:286] info: [API-Q] (T02LLEZNT) noversion-1706901810.285 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[02/02/24, 20:23:30:286] info: [API-Q] (T02LLEZNT) noversion-1706901810.285 Flannel channels/membership is ENQUEUED 
+[02/02/24, 20:23:30:287] info: [API-Q] (T02LLEZNT) noversion-1706901810.285 Flannel channels/membership is ACTIVE 
+[02/02/24, 20:23:30:288] info: [UFM] (T02LLEZNT) requesting B05FXFCCP3P,B06154F7G8G (1) 
+[02/02/24, 20:23:30:290] info: [API-Q] (T02LLEZNT) noversion-1706901810.289 Flannel users/info called with reason: flannel-call:users/info 
+[02/02/24, 20:23:30:290] info: [API-Q] (T02LLEZNT) noversion-1706901810.289 Flannel users/info is ENQUEUED 
+[02/02/24, 20:23:30:291] info: [API-Q] (T02LLEZNT) noversion-1706901810.289 Flannel users/info is ACTIVE 
+[02/02/24, 20:23:30:291] info: [UFM] (T02LLEZNT) requesting T02LLEZNT:B05FXFCCP3P (1) 
+[02/02/24, 20:23:30:294] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.293 apps.profile.get called with reason: fetch-legacy-app-profile 
+[02/02/24, 20:23:30:294] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.293 apps.profile.get is ENQUEUED 
+[02/02/24, 20:23:30:295] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.293 apps.profile.get is ACTIVE 
+[02/02/24, 20:23:30:298] info: [UFM-FLANNELEMOJI] (T02LLEZNT) requesting 1 objects (1) 
+[02/02/24, 20:23:30:299] info: [API-Q] (T02LLEZNT) noversion-1706901810.298 Flannel emojis/info called with reason: flannel-call:emojis/info 
+[02/02/24, 20:23:30:299] info: [API-Q] (T02LLEZNT) noversion-1706901810.298 Flannel emojis/info is ENQUEUED 
+[02/02/24, 20:23:30:300] info: [API-Q] (T02LLEZNT) noversion-1706901810.298 Flannel emojis/info is ACTIVE 
+[02/02/24, 20:23:30:417] info: [API-Q] (T02LLEZNT) noversion-1706901810.285 Flannel channels/membership is RESOLVED 
+[02/02/24, 20:23:30:516] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.293 apps.profile.get is RESOLVED 
+[02/02/24, 20:23:30:518] info: [API-Q] (T02LLEZNT) noversion-1706901810.289 Flannel users/info is RESOLVED 
+[02/02/24, 20:23:30:578] info: [API-Q] (T02LLEZNT) noversion-1706901810.298 Flannel emojis/info is RESOLVED 
+[02/02/24, 20:23:30:580] info: [UFM] (T02LLEZNT) received T02LLEZNT:B05FXFCCP3P (1) 
+[02/02/24, 20:23:30:584] info: [UFM] (T02LLEZNT) received B05FXFCCP3P,B06154F7G8G (1) 
+[02/02/24, 20:23:30:750] info: [UFM-FLANNELEMOJI] (T02LLEZNT) received 1 objects (1) 
+[02/02/24, 20:23:30:757] info: [UFM] (T02LLEZNT) requesting A0F7XDUAZ,A0F814AV7 (1) 
+[02/02/24, 20:23:30:759] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.758 apps.profile.get called with reason: fetch-all-apps-by-id 
+[02/02/24, 20:23:30:759] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.758 apps.profile.get is ENQUEUED 
+[02/02/24, 20:23:30:760] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.759 apps.profile.get called with reason: fetch-all-apps-by-id 
+[02/02/24, 20:23:30:760] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.759 apps.profile.get is ENQUEUED 
+[02/02/24, 20:23:30:761] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.758 apps.profile.get is ACTIVE 
+[02/02/24, 20:23:30:762] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.759 apps.profile.get is ACTIVE 
+[02/02/24, 20:23:30:764] info: [API-Q] (T02LLEZNT) noversion-1706901810.763 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[02/02/24, 20:23:30:764] info: [API-Q] (T02LLEZNT) noversion-1706901810.763 Flannel channels/membership is ENQUEUED 
+[02/02/24, 20:23:30:765] info: [API-Q] (T02LLEZNT) noversion-1706901810.763 Flannel channels/membership is ACTIVE 
+[02/02/24, 20:23:30:766] info: [CHECK-UNREADS] (T02LLEZNT) Checking unreads after unread line became visible 
+[02/02/24, 20:23:30:767] info: [CHECK-UNREADS] (T02LLEZNT) Marking C05FKS9130X because unread line is visible 
+[02/02/24, 20:23:30:768] info: [SET-LAST-READ] (T02LLEZNT) markLastRead C05FKS9130X:1706879396.618139, immediate: false 
+[02/02/24, 20:23:30:772] info: [SET-LAST-READ] (T02LLEZNT) delaying C05FKS9130X mark by 4640.45078066726ms 
+[02/02/24, 20:23:30:774] info: [UNREAD-COUNTS] (T02LLEZNT) Counting unreads in C05FKS9130X because last_read changed to 1706879396.618139 
+[02/02/24, 20:23:30:775] info: [COUNTS] (T02LLEZNT) Updated unread_cnt for C05FKS9130X: 0 
+[02/02/24, 20:23:30:951] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.758 apps.profile.get is RESOLVED 
+[02/02/24, 20:23:30:955] info: [API-Q] (T02LLEZNT) 40c9db46-1706901810.759 apps.profile.get is RESOLVED 
+[02/02/24, 20:23:30:957] info: [API-Q] (T02LLEZNT) noversion-1706901810.763 Flannel channels/membership is RESOLVED 
+[02/02/24, 20:23:30:958] info: [UFM] (T02LLEZNT) received A0F7XDUAZ,A0F814AV7 (1) 
+[02/02/24, 20:23:34:690] info: Breadcrumb: ui.click: button.c-link--button.c-message__reply_count[type="button"]  
+[02/02/24, 20:23:34:721] info: [NAVIGATE-IN-MAIN-WIND] Starting a new navigation event {"id":"thread","viewType":"Thread","viewParams":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}} 
+[02/02/24, 20:23:34:726] info: [APPLY-DETAIL-VIEW] ViewSet with detail view applied {"viewSet":{"primary":{"id":"C05FKS9130X","viewType":"Channel","params":{"startTs":"1706139574.922979"},"uiState":{"userSetUnreadPoint":false,"unreadLineVisible":true,"ghostLastRead":"1706139574.922979"}},"secondary":{"id":"thread","viewType":"Thread","params":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}}}} 
+[02/02/24, 20:23:34:726] info: [APPLY-DETAIL-VIEW] ViewSet with channel canvas applied {"viewSet":{"primary":{"id":"C05FKS9130X","viewType":"Channel","params":{"startTs":"1706139574.922979"},"uiState":{"userSetUnreadPoint":false,"unreadLineVisible":true,"ghostLastRead":"1706139574.922979"}},"secondary":{"id":"thread","viewType":"Thread","params":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}}}} 
+[02/02/24, 20:23:34:727] info: [NAVIGATE-IN-MAIN-WIND] Applying changes to the secondary container {"viewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel","params":{"startTs":"1706139574.922979"},"uiState":{"userSetUnreadPoint":false,"unreadLineVisible":true,"ghostLastRead":"1706139574.922979"}},"secondary":{"id":"thread","viewType":"Thread","params":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}}}} 
+[02/02/24, 20:23:34:727] info: [NAVIGATION-MIDDLEWARE] Starting a new navigation middleware execution {"nextViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel","params":{"startTs":"1706139574.922979"},"uiState":{"userSetUnreadPoint":false,"unreadLineVisible":true,"ghostLastRead":"1706139574.922979"}},"secondary":{"id":"thread","viewType":"Thread","params":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}}},"middlewareCount":6} 
+[02/02/24, 20:23:34:740] info: [NAVIGATION-MIDDLEWARE] Async action execution is complete for a view {"nextView":{"id":"ChannelList","viewType":"ChannelList"},"results":[["UserIdToDMIdMiddleware",false],["AttemptToStopEditingInChannel",false],["PreventVideoRecorderModalClose",false],["OpenConversationWithIds",false],["EnsureChannel",false],["EnsureAppViewType",false]],"shouldTerminateNavigation":false,"executionTime":12.399999999906868} 
+[02/02/24, 20:23:34:740] info: [NAVIGATION-MIDDLEWARE] Finish middleware execution for sidebar container {"maybeTransformedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel","params":{"startTs":"1706139574.922979"},"uiState":{"userSetUnreadPoint":false,"unreadLineVisible":true,"ghostLastRead":"1706139574.922979"}},"secondary":{"id":"thread","viewType":"Thread","params":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}}},"terminateNavigation":false,"isViewTransformed":false,"iterationCount":0,"executionTime":12.899999999906868} 
+[02/02/24, 20:23:34:741] info: [NAVIGATION-MIDDLEWARE] Async action execution is complete for a view {"nextView":{"id":"C05FKS9130X","viewType":"Channel","params":{"startTs":"1706139574.922979"},"uiState":{"userSetUnreadPoint":false,"unreadLineVisible":true,"ghostLastRead":"1706139574.922979"}},"results":[["UserIdToDMIdMiddleware",false],["AttemptToStopEditingInChannel",false],["PreventVideoRecorderModalClose",false],["OpenConversationWithIds",false],["EnsureChannel",false],["EnsureAppViewType",false]],"shouldTerminateNavigation":false,"executionTime":0.6000000000931323} 
+[02/02/24, 20:23:34:741] info: [NAVIGATION-MIDDLEWARE] Finish middleware execution for primary container {"maybeTransformedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel","params":{"startTs":"1706139574.922979"},"uiState":{"userSetUnreadPoint":false,"unreadLineVisible":true,"ghostLastRead":"1706139574.922979"}},"secondary":{"id":"thread","viewType":"Thread","params":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}}},"terminateNavigation":false,"isViewTransformed":false,"iterationCount":0,"executionTime":0.7999999998137355} 
+[02/02/24, 20:23:34:741] info: [NAVIGATION-MIDDLEWARE] Async action execution is complete for a view {"nextView":{"id":"thread","viewType":"Thread","params":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}},"results":[["UserIdToDMIdMiddleware",false],["AttemptToStopEditingInChannel",false],["PreventVideoRecorderModalClose",false],["OpenConversationWithIds",false],["EnsureChannel",false],["EnsureAppViewType",false]],"shouldTerminateNavigation":false,"executionTime":0.19999999972060323} 
+[02/02/24, 20:23:34:742] info: [NAVIGATION-MIDDLEWARE] Finish middleware execution for secondary container {"maybeTransformedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel","params":{"startTs":"1706139574.922979"},"uiState":{"userSetUnreadPoint":false,"unreadLineVisible":true,"ghostLastRead":"1706139574.922979"}},"secondary":{"id":"thread","viewType":"Thread","params":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}}},"terminateNavigation":false,"isViewTransformed":false,"iterationCount":0,"executionTime":0.5} 
+[02/02/24, 20:23:34:742] info: [NAVIGATION-MIDDLEWARE] Navigation middleware execution is complete {"maybeUpdatedViewSet":{"sidebar":{"id":"ChannelList","viewType":"ChannelList"},"primary":{"id":"C05FKS9130X","viewType":"Channel","params":{"startTs":"1706139574.922979"},"uiState":{"userSetUnreadPoint":false,"unreadLineVisible":true,"ghostLastRead":"1706139574.922979"}},"secondary":{"id":"thread","viewType":"Thread","params":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}}},"terminateNavigation":false,"executionTime":15.100000000093132} 
+[02/02/24, 20:23:34:748] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Starting navigation listeners for triggerType NAVIGATION 
+[02/02/24, 20:23:34:753] info: [NAVIGATE-LISTENERS] (T02LLEZNT) Navigation listeners complete without errors 
+[02/02/24, 20:23:34:753] info: [NAVIGATE-IN-MAIN-WIND]  Navigation thunk execution complete {"id":"thread","viewType":"Thread","viewParams":{"threadId":"C05FKS9130X-1706879366.489489","highlightRoot":false,"dangerouslyOverrideRouting":false}} 
+[02/02/24, 20:23:35:092] info: [WD] All assets have reported back; s: 17; f: 0 
+[02/02/24, 20:23:35:146] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.145 conversations.replies called with reason: history-api/fetchReplies 
+[02/02/24, 20:23:35:146] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.145 conversations.replies is ENQUEUED 
+[02/02/24, 20:23:35:288] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.145 conversations.replies is ACTIVE 
+[02/02/24, 20:23:35:343] info: [API-Q] (T02LLEZNT) noversion-1706901815.342 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[02/02/24, 20:23:35:344] info: [API-Q] (T02LLEZNT) noversion-1706901815.342 Flannel permissions/info is ENQUEUED 
+[02/02/24, 20:23:35:344] info: [API-Q] (T02LLEZNT) noversion-1706901815.342 Flannel permissions/info is ACTIVE 
+[02/02/24, 20:23:35:382] info: [API-Q] (T02LLEZNT) noversion-1706901815.342 Flannel permissions/info is RESOLVED 
+[02/02/24, 20:23:35:435] info: [SET-LAST-READ] (T02LLEZNT) delay resolved, marking C05FKS9130X with API 
+[02/02/24, 20:23:35:436] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.435 conversations.mark called with reason: viewed 
+[02/02/24, 20:23:35:436] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.435 conversations.mark is ENQUEUED 
+[02/02/24, 20:23:35:437] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.435 conversations.mark is ACTIVE 
+[02/02/24, 20:23:35:462] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.145 conversations.replies is RESOLVED 
+[02/02/24, 20:23:35:848] warn: Listener added for a synchronous 'DOMNodeInserted' DOM Mutation Event. This event type is deprecated (https://w3c.github.io/uievents/#legacy-event-types) and work is underway to remove it from this browser. Usage of this event listener will cause performance issues today, and represents a risk of future incompatibility. Consider using MutationObserver instead. 
+[02/02/24, 20:23:35:995] info: [UFM-FILES] (T02LLEZNT) requesting F05FKS9130X (1) 
+[02/02/24, 20:23:35:996] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.996 files.info called with reason: files-store-unknown-fetch 
+[02/02/24, 20:23:35:996] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.996 files.info is ENQUEUED 
+[02/02/24, 20:23:35:997] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.996 files.info is ACTIVE 
+[02/02/24, 20:23:35:999] info: [UFM-FLANNELEMOJI] (T02LLEZNT) requesting 3 objects (1) 
+[02/02/24, 20:23:35:999] info: [API-Q] (T02LLEZNT) noversion-1706901815.999 Flannel emojis/info called with reason: flannel-call:emojis/info 
+[02/02/24, 20:23:35:999] info: [API-Q] (T02LLEZNT) noversion-1706901815.999 Flannel emojis/info is ENQUEUED 
+[02/02/24, 20:23:35:999] info: [API-Q] (T02LLEZNT) noversion-1706901815.999 Flannel emojis/info is ACTIVE 
+[02/02/24, 20:23:36:000] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.435 conversations.mark is RESOLVED 
+[02/02/24, 20:23:36:000] warn: AutoTrace removed with reason: Stopped AutoTrace for key: composer:instantiation-l7awona4 
+[02/02/24, 20:23:36:026] info: [API-Q] (T02LLEZNT) noversion-1706901815.999 Flannel emojis/info is RESOLVED 
+[02/02/24, 20:23:36:026] info: [UFM-FLANNELEMOJI] (T02LLEZNT) received 3 objects (1) 
+[02/02/24, 20:23:36:151] info: [API-Q] (T02LLEZNT) 40c9db46-1706901815.996 files.info is REJECTED: API not ok file_not_found 
+[02/02/24, 20:23:36:151] info: [UFM-FILES] (T02LLEZNT) received F05FKS9130X (1) 
+[02/02/24, 20:24:08:559] info: [FOCUS-EVENT] (T02LLEZNT) Main window blurred 

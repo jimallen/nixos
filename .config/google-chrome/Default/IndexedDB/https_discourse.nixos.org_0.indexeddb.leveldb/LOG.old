@@ -1,0 +1,7 @@
+2024/02/04-17:43:32.357 ef5 Reusing MANIFEST /home/jim/.config/google-chrome/Default/IndexedDB/https_discourse.nixos.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/04-17:43:32.358 ef5 Recovering log #3
+2024/02/04-17:43:32.396 ef5 Reusing old log /home/jim/.config/google-chrome/Default/IndexedDB/https_discourse.nixos.org_0.indexeddb.leveldb/000003.log 
+2024/02/04-17:44:17.809 ef6 Level-0 table #5: started
+2024/02/04-17:44:17.826 ef6 Level-0 table #5: 416605 bytes OK
+2024/02/04-17:44:17.828 ef6 Delete type=0 #3
+2024/02/04-17:44:17.829 ef6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

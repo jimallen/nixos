@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://zoom.us/postattendee", "https://zoom.us/j/*", "https://*.zoom.us/j/*", "https://zoom.us/s/*", "https://*.zoom.us/s/*" ]
+   } ],
+   "description": "This extension automatically closes the launched window from Zoom meetings.",
+   "icons": {
+      "128": "assets/icon-128.png",
+      "16": "assets/icon-16.png",
+      "48": "assets/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArjKVRfUNybmCBx7xqchGVvVW00EzpalumeAEtvmHRz//kj1905Ss17Ql8PsLwICK1yLKgP7ZtD2ssxnjaO6xGUtEIqBBFBFacVrn4rC5wN6P6nA3m3qvpM/Y/xa7PJKcpA/KaewAjwbo+Ke614Bfe90tTtlfyc3Xd2qeyOIeii7DbxCnhayA7tdJfNxFN3H/gWtCm8PeriEif0R1RhbNUMDjnoHADceVrzkdoS5KUWBZyzl4hlUUI9cGicqHd/IdhjvRrXB0SMXpkA/3L+MusLwNkTZJYTOdyRUkqesi1xCIhOpvtdxxtB68DChuR4godzAvF2SL25cTx9SbSiwhKQIDAQAB",
+   "manifest_version": 2,
+   "name": "Zoom Closer",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7"
+}

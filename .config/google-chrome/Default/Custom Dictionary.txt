@@ -1,0 +1,19 @@
+AWS
+BrightCove
+CDN
+CloudFront
+DLL
+DLLs
+KOD
+KOF
+PWS
+SCHL
+SOA
+SSO
+SWIQ
+SWP
+StayWell
+UCR
+WCF
+performant
+checksum_v1 = ce1a84a6091410d486c43c8b3fc4a012

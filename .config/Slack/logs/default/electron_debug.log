@@ -1,0 +1,13 @@
+[268454:0202/202030.221103:WARNING:wayland_object.cc(158)] Binding to zwp_linux_dmabuf_v1 version 3 but version 4 is available.
+[268454:0202/202030.221468:WARNING:wayland_object.cc(158)] Binding to zwp_pointer_gestures_v1 version 1 but version 3 is available.
+[268454:0202/202030.443576:ERROR:object_proxy.cc(577)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.FileChooser”
+[268454:0202/202030.443676:WARNING:property.cc(144)] version: GetAndBlock: failed.
+[268454:0202/202030.443691:ERROR:select_file_dialog_linux_portal.cc(280)] Failed to read portal version property
+[268454:0202/202030.697028:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[268454:0202/202030.880474:WARNING:wayland_surface.cc(182)] Server doesn't support zcr_alpha_compositing_v1.
+[268454:0202/202030.880546:WARNING:wayland_surface.cc(197)] Server doesn't support overlay_prioritizer.
+[268454:0202/202030.880558:WARNING:wayland_surface.cc(211)] Server doesn't support surface_augmenter.
+[268454:0202/202030.880567:WARNING:wayland_surface.cc(226)] Server doesn't support wp_content_type_v1
+[268454:0202/202030.880576:WARNING:wayland_surface.cc(245)] Server doesn't support zcr_color_management_surface.
+[268454:0202/202044.480579:WARNING:org_gnome_mutter_idle_monitor.cc(95)] org.gnome.Mutter.IdleMonitor D-Bus service does not exist
+[268454:0202/202328.054333:ERROR:wayland_data_drag_controller.cc(130)] Invalid state when trying to start drag. source=kMouse

@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "/lib/jquery-2.2.1.min.js", "/lib/google-analytics-bundle.js", "/js/ChromePlatformAnalytics.js", "/js/Cache.js", "/js/Tracer.js", "/js/Path.js", "/js/Hop.js", "/js/RobotsTxt.js", "/js/UrlChecker.js", "/js/Warning.js", "/js/Icon.js", "/js/SearchEngines.js", "/js/RobotsImg.js", "/js/RTIcon.js", "/js/lrt/LRT.js", "/js/IP.js", "/js/Screenshot.js", "/js/App.js", "/js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "/img/icon19.png",
+      "default_popup": "/html/popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "/js/cs-page.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "The all-in-one redirect path analyzer. It also analyzes HTTP Headers, REL-canonicals, robots.txt, link power, and link trust!",
+   "icons": {
+      "128": "/img/icon128.png",
+      "19": "/img/icon19.png",
+      "256": "/img/icon256.png",
+      "38": "/img/icon38.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiyibrntien4tUBMy1t3BgIDE6Sl14QWpWs45xV+EDoz8hMsEP8BPJ48Z9cSbn6MdMlrTnXKd2GZpU+JnZDKGfdTmPjKzKzGYgvOvsN2Km25K7yeaQGAdx4VdI7mvcCVb3jLt/VPvZk63cagGSJZbdJLDEn1WFVJn4IlWe87WjeMe4I1PkHtcU63f8hDDKEDOa1yuK+z9mndDaNQL2kGuW8UfH6SWgNq2N92rQxQEOW8wmz1zsbNco4V2CIxFPyWnU4nmlFPby6g66epmsB3y0gCSYlH0Qb9SC7dO4P3umqtq8U0EJs2j/0m8bEIRxP4GCc6kGZGUsh6AZSd9f3wVcQIDAQAB",
+   "manifest_version": 2,
+   "name": "Link Redirect Trace",
+   "permissions": [ "\u003Call_urls>", "activeTab", "tabs", "http://*/*", "https://*/*", "webRequest", "webNavigation", "storage" ],
+   "short_name": "Redirect Trace",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.0",
+   "version_name": "1.0.0.0",
+   "web_accessible_resources": [ "/img/*" ]
+}
